@@ -22,12 +22,5 @@ curl -s https://raw.githubusercontent.com/wstam88/rofi-fontawesome/master/icon-l
 echo -n "<i class='fa fa-$(curl -s https://raw.githubusercontent.com/wstam88/rofi-fontawesome/master/icon-list.txt | rofi -dmenu -i -markup-rows -p "" -columns 6 -width 100 -location 1 -lines 20 -bw 2 -yoffset -2 | cut -d\' -f2 )'></i>" | xclip -selection clipboard && xdotool key ctrl+shift+v
 ```
 
-### Recommended
-Use the bash script included
-chmod +x ./icon-selector.sh
-
-Default
-./icon-selector.sh
-
-Unicode
-./icon-selector.sh -u
+### Use shell script (recommended)
+Compose your own shell script and do as you like.
