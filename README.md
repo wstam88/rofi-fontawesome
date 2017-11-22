@@ -2,7 +2,7 @@
 
 # Font Awesome icon list for Rofi
 
-I generated this Font Awesome icon lists to be used as a quick  search/select tool to be used with Rofi.
+I generated this Font Awesome icon lists to be used as a quick search/select tool utilizing rofi, xclip and xdotool.
 
 There are 2 lists available:
  * **Default** for pasting the icon class
