@@ -1,3 +1,5 @@
+![example](https://raw.githubusercontent.com/wstam88/rofi-fontawesome/master/example.gif)
+
 # Font Awesome icon list for Rofi
 
 I generated this Font Awesome icon lists to be used as a quick  search/select tool to be used with Rofi.
