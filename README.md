@@ -10,6 +10,7 @@ There are 2 lists available:
 
 # Requirements
  * Obviously you will need [Rofi](https://github.com/DaveDavenport/rofi).
+ * The actual [Font Awesome](http://fontawesome.io/) font 
  * A CLI clipboard utility like [xclip](https://github.com/astrand/xclip), [xsel](https://linux.die.net/man/1/xsel) or [pbpaste](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/pbpaste.1.html).
  * xdotool (or another tool to  simulate keyboard input and mouse activity)
 
