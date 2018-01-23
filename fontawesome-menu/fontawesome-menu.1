@@ -1,0 +1,95 @@
+.TH FONTAWESOME\-MENU 1 2018\-01\-23 Linux "User Manuals"
+.SH NAME
+.PP
+\fB\fCfontawesome\-menu\fR \- Display all FontAwesome icons in a rofi menu
+
+.SH SYNOPSIS
+.PP
+\fB\fCfontawesome\-menu\fR [\fB\fC\-v\fR|\fB\fC\-h\fR] [\-f \fILISTFILE\fP] [\-p PROMPT] [OUTPUT]
+
+.SH DESCRIPTION
+.PP
+If \fB\fCfontawesome\-menu\fR is executed without options
+or arguments, a list of all FontAwesome 5 Free
+icons is displayed in a rofi menu. The selected icon
+will be put into the clipboard.
+
+.SH OPTIONS
+.PP
+\fB\fC\-v\fR
+.br
+  Show version and exit.
+
+.PP
+\fB\fC\-h\fR
+.br
+  Show help and exit.
+
+.PP
+\fB\fC\-f\fR \fILISTFILE\fP
+.br
+  File containing objects to display in the menu.
+  Defaults to \fIfa5\-icon\-list.txt\fP\&. More lists can
+  be found here:
+.br
+  
+\[la]https://raw.githubusercontent.com/wstam88/rofi-fontawesome/\[ra]
+
+.PP
+\fB\fC\-p\fR PROMPT
+.br
+  PROMPT to display in the menu. Defaults to nothing.
+
+.PP
+\fB\fC\-o\fR \fIROFI\-OPTIONS\fP
+.br
+  Additional options to pass to \fB\fCrofi\fR\&. Put the all options
+  in one quoted string. Example:
+  \fB\fCfontawesome\-menu \-o '\-i \-columns 6 \-width 100 \-lines 20 \-bw 2 \-yoffset \-2 \-location 1'\fR
+
+.PP
+OUTPUT
+.br
+  Can be one of: icon|name|unicode
+.br
+  icon    \- Puts the icon in the clipboard (default)
+.br
+  name    \- Puts the name in the clipboard
+.br
+  unicode \- Puts the unicode in the clipboard
+
+.SH EXAMPLES
+.PP
+.RS
+
+.nf
+$ fontawesome\-menu \\
+    \-o "\-columns 6 \-width 100 \-location 1 \-lines 20 \-i" \\
+    \-p "Select icon: " \\
+    name
+
+.fi
+.RE
+
+.SH DEPENDENCIES
+.PP
+rofi
+.br
+fontawesome
+.br
+xclip
+
+.SH AUTHOR
+.PP
+budRich 
+\[la]robstenklippa@gmail.com\[ra]
+
+\[la]https://budrich.github.io\[ra]
+
+.SH SEE ALSO
+.PP
+rofi(1), xclip(1)
+
+\[la]https://raw.githubusercontent.com/wstam88/rofi-fontawesome/\[ra],
+
+\[la]http://fontawesome.io\[ra]

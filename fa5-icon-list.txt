@@ -1,0 +1,791 @@
+<span lang='Umbrella'face='Font Awesome 5 Free'>&#xf0e9;</span> Umbrella
+<span lang='Arrow Circle Left'face='Font Awesome 5 Free'>&#xf0a8;</span> Arrow Circle Left
+<span lang='Alternate Exchange'face='Font Awesome 5 Free'>&#xf362;</span> Alternate Exchange
+<span lang='Arrow Circle Right'face='Font Awesome 5 Free'>&#xf0a9;</span> Arrow Circle Right
+<span lang='trophy'face='Font Awesome 5 Free'>&#xf091;</span> trophy
+<span lang='fast-forward'face='Font Awesome 5 Free'>&#xf050;</span> fast-forward
+<span lang='step-forward'face='Font Awesome 5 Free'>&#xf051;</span> step-forward
+<span lang='Search Minus'face='Font Awesome 5 Free'>&#xf010;</span> Search Minus
+<span lang='GitHub Square'face='Font Awesome 5 Free'>&#xf092;</span> GitHub Square
+<span lang='Upload'face='Font Awesome 5 Free'>&#xf093;</span> Upload
+<span lang='Power Off'face='Font Awesome 5 Free'>&#xf011;</span> Power Off
+<span lang='eject'face='Font Awesome 5 Free'>&#xf052;</span> eject
+<span lang='signal'face='Font Awesome 5 Free'>&#xf012;</span> signal
+<span lang='Lemon'face='Font Awesome 5 Free'>&#xf094;</span> Lemon
+<span lang='Accessible Icon'face='Font Awesome 5 Free'>&#xf368;</span> Accessible Icon
+<span lang='chevron-left'face='Font Awesome 5 Free'>&#xf053;</span> chevron-left
+<span lang='Phone'face='Font Awesome 5 Free'>&#xf095;</span> Phone
+<span lang='Accusoft'face='Font Awesome 5 Free'>&#xf369;</span> Accusoft
+<span lang='Clipboard'face='Font Awesome 5 Free'>&#xf328;</span> Clipboard
+<span lang='chevron-right'face='Font Awesome 5 Free'>&#xf054;</span> chevron-right
+<span lang='cog'face='Font Awesome 5 Free'>&#xf013;</span> cog
+<span lang='Plus Circle'face='Font Awesome 5 Free'>&#xf055;</span> Plus Circle
+<span lang='Minus Circle'face='Font Awesome 5 Free'>&#xf056;</span> Minus Circle
+<span lang='home'face='Font Awesome 5 Free'>&#xf015;</span> home
+<span lang='Times Circle'face='Font Awesome 5 Free'>&#xf057;</span> Times Circle
+<span lang='Phone Square'face='Font Awesome 5 Free'>&#xf098;</span> Phone Square
+<span lang='Twitter'face='Font Awesome 5 Free'>&#xf099;</span> Twitter
+<span lang='Check Circle'face='Font Awesome 5 Free'>&#xf058;</span> Check Circle
+<span lang='Clock'face='Font Awesome 5 Free'>&#xf017;</span> Clock
+<span lang='road'face='Font Awesome 5 Free'>&#xf018;</span> road
+<span lang='Question Circle'face='Font Awesome 5 Free'>&#xf059;</span> Question Circle
+<span lang='Download'face='Font Awesome 5 Free'>&#xf019;</span> Download
+<span lang='Alternate Tablet'face='Font Awesome 5 Free'>&#xf3fa;</span> Alternate Tablet
+<span lang='KeyCDN'face='Font Awesome 5 Free'>&#xf3ba;</span> KeyCDN
+<span lang='Kickstarter'face='Font Awesome 5 Free'>&#xf3bb;</span> Kickstarter
+<span lang='Alternate Tachometer'face='Font Awesome 5 Free'>&#xf3fd;</span> Alternate Tachometer
+<span lang='Kickstarter K'face='Font Awesome 5 Free'>&#xf3bc;</span> Kickstarter K
+<span lang='Telegram Plane'face='Font Awesome 5 Free'>&#xf3fe;</span> Telegram Plane
+<span lang='Laravel'face='Font Awesome 5 Free'>&#xf3bd;</span> Laravel
+<span lang='Alernate Ticket'face='Font Awesome 5 Free'>&#xf3ff;</span> Alernate Ticket
+<span lang='Paste'face='Font Awesome 5 Free'>&#xf0ea;</span> Paste
+<span lang='Level Down-alt'face='Font Awesome 5 Free'>&#xf3be;</span> Level Down-alt
+<span lang='Lightbulb'face='Font Awesome 5 Free'>&#xf0eb;</span> Lightbulb
+<span lang='Level Up-alt'face='Font Awesome 5 Free'>&#xf3bf;</span> Level Up-alt
+<span lang='Arrow Circle Up'face='Font Awesome 5 Free'>&#xf0aa;</span> Arrow Circle Up
+<span lang='Arrow Circle Down'face='Font Awesome 5 Free'>&#xf0ab;</span> Arrow Circle Down
+<span lang='Globe'face='Font Awesome 5 Free'>&#xf0ac;</span> Globe
+<span lang='Wrench'face='Font Awesome 5 Free'>&#xf0ad;</span> Wrench
+<span lang='Tasks'face='Font Awesome 5 Free'>&#xf0ae;</span> Tasks
+<span lang='Adversal'face='Font Awesome 5 Free'>&#xf36a;</span> Adversal
+<span lang='affiliatetheme'face='Font Awesome 5 Free'>&#xf36b;</span> affiliatetheme
+<span lang='Algolia'face='Font Awesome 5 Free'>&#xf36c;</span> Algolia
+<span lang='Amilia'face='Font Awesome 5 Free'>&#xf36d;</span> Amilia
+<span lang='Angry Creative'face='Font Awesome 5 Free'>&#xf36e;</span> Angry Creative
+<span lang='Facebook'face='Font Awesome 5 Free'>&#xf09a;</span> Facebook
+<span lang='Info Circle'face='Font Awesome 5 Free'>&#xf05a;</span> Info Circle
+<span lang='App Store'face='Font Awesome 5 Free'>&#xf36f;</span> App Store
+<span lang='GitHub'face='Font Awesome 5 Free'>&#xf09b;</span> GitHub
+<span lang='unlock'face='Font Awesome 5 Free'>&#xf09c;</span> unlock
+<span lang='Crosshairs'face='Font Awesome 5 Free'>&#xf05b;</span> Crosshairs
+<span lang='Credit Card'face='Font Awesome 5 Free'>&#xf09d;</span> Credit Card
+<span lang='rss'face='Font Awesome 5 Free'>&#xf09e;</span> rss
+<span lang='inbox'face='Font Awesome 5 Free'>&#xf01c;</span> inbox
+<span lang='ban'face='Font Awesome 5 Free'>&#xf05e;</span> ban
+<span lang='Redo'face='Font Awesome 5 Free'>&#xf01e;</span> Redo
+<span lang='Database'face='Font Awesome 5 Free'>&#xf1c0;</span> Database
+<span lang='PDF File'face='Font Awesome 5 Free'>&#xf1c1;</span> PDF File
+<span lang='Word File'face='Font Awesome 5 Free'>&#xf1c2;</span> Word File
+<span lang='Excel File'face='Font Awesome 5 Free'>&#xf1c3;</span> Excel File
+<span lang='Powerpoint File'face='Font Awesome 5 Free'>&#xf1c4;</span> Powerpoint File
+<span lang='Image File'face='Font Awesome 5 Free'>&#xf1c5;</span> Image File
+<span lang='Archive File'face='Font Awesome 5 Free'>&#xf1c6;</span> Archive File
+<span lang='Audio File'face='Font Awesome 5 Free'>&#xf1c7;</span> Audio File
+<span lang='Video File'face='Font Awesome 5 Free'>&#xf1c8;</span> Video File
+<span lang='Code File'face='Font Awesome 5 Free'>&#xf1c9;</span> Code File
+<span lang='Uber'face='Font Awesome 5 Free'>&#xf402;</span> Uber
+<span lang='UIkit'face='Font Awesome 5 Free'>&#xf403;</span> UIkit
+<span lang='App.net'face='Font Awesome 5 Free'>&#xf170;</span> App.net
+<span lang='Uniregistry'face='Font Awesome 5 Free'>&#xf404;</span> Uniregistry
+<span lang='microphone'face='Font Awesome 5 Free'>&#xf130;</span> microphone
+<span lang='Bitbucket'face='Font Awesome 5 Free'>&#xf171;</span> Bitbucket
+<span lang='Untappd'face='Font Awesome 5 Free'>&#xf405;</span> Untappd
+<span lang='Microphone Slash'face='Font Awesome 5 Free'>&#xf131;</span> Microphone Slash
+<span lang='Tumblr'face='Font Awesome 5 Free'>&#xf173;</span> Tumblr
+<span lang='us-Sunnah Foundation'face='Font Awesome 5 Free'>&#xf407;</span> us-Sunnah Foundation
+<span lang='Tumblr Square'face='Font Awesome 5 Free'>&#xf174;</span> Tumblr Square
+<span lang='Calendar'face='Font Awesome 5 Free'>&#xf133;</span> Calendar
+<span lang='Vaadin'face='Font Awesome 5 Free'>&#xf408;</span> Vaadin
+<span lang='fire-extinguisher'face='Font Awesome 5 Free'>&#xf134;</span> fire-extinguisher
+<span lang='Viber'face='Font Awesome 5 Free'>&#xf409;</span> Viber
+<span lang='rocket'face='Font Awesome 5 Free'>&#xf135;</span> rocket
+<span lang='MaxCDN'face='Font Awesome 5 Free'>&#xf136;</span> MaxCDN
+<span lang='Chevron Circle Left'face='Font Awesome 5 Free'>&#xf137;</span> Chevron Circle Left
+<span lang='Apple'face='Font Awesome 5 Free'>&#xf179;</span> Apple
+<span lang='Chevron Circle Right'face='Font Awesome 5 Free'>&#xf138;</span> Chevron Circle Right
+<span lang='Chevron Circle Up'face='Font Awesome 5 Free'>&#xf139;</span> Chevron Circle Up
+<span lang='Vine'face='Font Awesome 5 Free'>&#xf1ca;</span> Vine
+<span lang='Codepen'face='Font Awesome 5 Free'>&#xf1cb;</span> Codepen
+<span lang='jsFiddle'face='Font Awesome 5 Free'>&#xf1cc;</span> jsFiddle
+<span lang='Life Ring'face='Font Awesome 5 Free'>&#xf1cd;</span> Life Ring
+<span lang='Circle Notched'face='Font Awesome 5 Free'>&#xf1ce;</span> Circle Notched
+<span lang='Vimeo'face='Font Awesome 5 Free'>&#xf40a;</span> Vimeo
+<span lang='VNV'face='Font Awesome 5 Free'>&#xf40b;</span> VNV
+<span lang='Whats App Square'face='Font Awesome 5 Free'>&#xf40c;</span> Whats App Square
+<span lang='Windows'face='Font Awesome 5 Free'>&#xf17a;</span> Windows
+<span lang='WHMCS'face='Font Awesome 5 Free'>&#xf40d;</span> WHMCS
+<span lang='Android'face='Font Awesome 5 Free'>&#xf17b;</span> Android
+<span lang='Chevron Circle Down'face='Font Awesome 5 Free'>&#xf13a;</span> Chevron Circle Down
+<span lang='Linux'face='Font Awesome 5 Free'>&#xf17c;</span> Linux
+<span lang='HTML 5 Logo'face='Font Awesome 5 Free'>&#xf13b;</span> HTML 5 Logo
+<span lang='Dribbble'face='Font Awesome 5 Free'>&#xf17d;</span> Dribbble
+<span lang='CSS 3 Logo'face='Font Awesome 5 Free'>&#xf13c;</span> CSS 3 Logo
+<span lang='Skype'face='Font Awesome 5 Free'>&#xf17e;</span> Skype
+<span lang='Anchor'face='Font Awesome 5 Free'>&#xf13d;</span> Anchor
+<span lang='Alternate Unlock'face='Font Awesome 5 Free'>&#xf13e;</span> Alternate Unlock
+<span lang='Meetup'face='Font Awesome 5 Free'>&#xf2e0;</span> Meetup
+<span lang='Phone Volume'face='Font Awesome 5 Free'>&#xf2a0;</span> Phone Volume
+<span lang='Braille'face='Font Awesome 5 Free'>&#xf2a1;</span> Braille
+<span lang='Assistive Listening Systems'face='Font Awesome 5 Free'>&#xf2a2;</span> Assistive Listening Systems
+<span lang='American Sign Language Interpreting'face='Font Awesome 5 Free'>&#xf2a3;</span> American Sign Language Interpreting
+<span lang='Utensil Spoon'face='Font Awesome 5 Free'>&#xf2e5;</span> Utensil Spoon
+<span lang='Deaf'face='Font Awesome 5 Free'>&#xf2a4;</span> Deaf
+<span lang='Glide'face='Font Awesome 5 Free'>&#xf2a5;</span> Glide
+<span lang='Utensils'face='Font Awesome 5 Free'>&#xf2e7;</span> Utensils
+<span lang='Glide G'face='Font Awesome 5 Free'>&#xf2a6;</span> Glide G
+<span lang='Sign Language'face='Font Awesome 5 Free'>&#xf2a7;</span> Sign Language
+<span lang='Low Vision'face='Font Awesome 5 Free'>&#xf2a8;</span> Low Vision
+<span lang='Viadeo'face='Font Awesome 5 Free'>&#xf2a9;</span> Viadeo
+<span lang='Shopping Bag'face='Font Awesome 5 Free'>&#xf290;</span> Shopping Bag
+<span lang='Shopping Basket'face='Font Awesome 5 Free'>&#xf291;</span> Shopping Basket
+<span lang='Hashtag'face='Font Awesome 5 Free'>&#xf292;</span> Hashtag
+<span lang='Hourglass Start'face='Font Awesome 5 Free'>&#xf251;</span> Hourglass Start
+<span lang='DashCube'face='Font Awesome 5 Free'>&#xf210;</span> DashCube
+<span lang='Bluetooth'face='Font Awesome 5 Free'>&#xf293;</span> Bluetooth
+<span lang='Hourglass Half'face='Font Awesome 5 Free'>&#xf252;</span> Hourglass Half
+<span lang='Forumbee'face='Font Awesome 5 Free'>&#xf211;</span> Forumbee
+<span lang='Leanpub'face='Font Awesome 5 Free'>&#xf212;</span> Leanpub
+<span lang='Bluetooth'face='Font Awesome 5 Free'>&#xf294;</span> Bluetooth
+<span lang='Hourglass End'face='Font Awesome 5 Free'>&#xf253;</span> Hourglass End
+<span lang='Sellsy'face='Font Awesome 5 Free'>&#xf213;</span> Sellsy
+<span lang='Percent'face='Font Awesome 5 Free'>&#xf295;</span> Percent
+<span lang='Hourglass'face='Font Awesome 5 Free'>&#xf254;</span> Hourglass
+<span lang='Shirts in Bulk'face='Font Awesome 5 Free'>&#xf214;</span> Shirts in Bulk
+<span lang='GitLab'face='Font Awesome 5 Free'>&#xf296;</span> GitLab
+<span lang='Rock (Hand)'face='Font Awesome 5 Free'>&#xf255;</span> Rock (Hand)
+<span lang='WPBeginner'face='Font Awesome 5 Free'>&#xf297;</span> WPBeginner
+<span lang='SimplyBuilt'face='Font Awesome 5 Free'>&#xf215;</span> SimplyBuilt
+<span lang='Paper (Hand)'face='Font Awesome 5 Free'>&#xf256;</span> Paper (Hand)
+<span lang='WPForms'face='Font Awesome 5 Free'>&#xf298;</span> WPForms
+<span lang='skyatlas'face='Font Awesome 5 Free'>&#xf216;</span> skyatlas
+<span lang='Scissors (Hand)'face='Font Awesome 5 Free'>&#xf257;</span> Scissors (Hand)
+<span lang='Envira Gallery'face='Font Awesome 5 Free'>&#xf299;</span> Envira Gallery
+<span lang='Lizard (Hand)'face='Font Awesome 5 Free'>&#xf258;</span> Lizard (Hand)
+<span lang='Add to Shopping Cart'face='Font Awesome 5 Free'>&#xf217;</span> Add to Shopping Cart
+<span lang='Spock (Hand)'face='Font Awesome 5 Free'>&#xf259;</span> Spock (Hand)
+<span lang='Shopping Cart Arrow Down'face='Font Awesome 5 Free'>&#xf218;</span> Shopping Cart Arrow Down
+<span lang='Alternate Undo'face='Font Awesome 5 Free'>&#xf2ea;</span> Alternate Undo
+<span lang='Viadeo Square'face='Font Awesome 5 Free'>&#xf2aa;</span> Viadeo Square
+<span lang='Snapchat'face='Font Awesome 5 Free'>&#xf2ab;</span> Snapchat
+<span lang='Alternate Trash'face='Font Awesome 5 Free'>&#xf2ed;</span> Alternate Trash
+<span lang='Snapchat Ghost'face='Font Awesome 5 Free'>&#xf2ac;</span> Snapchat Ghost
+<span lang='Snapchat Square'face='Font Awesome 5 Free'>&#xf2ad;</span> Snapchat Square
+<span lang='Pied Piper Logo'face='Font Awesome 5 Free'>&#xf2ae;</span> Pied Piper Logo
+<span lang='Universal Access'face='Font Awesome 5 Free'>&#xf29a;</span> Universal Access
+<span lang='Pointer (Hand)'face='Font Awesome 5 Free'>&#xf25a;</span> Pointer (Hand)
+<span lang='Ship'face='Font Awesome 5 Free'>&#xf21a;</span> Ship
+<span lang='Peace (Hand)'face='Font Awesome 5 Free'>&#xf25b;</span> Peace (Hand)
+<span lang='User Secret'face='Font Awesome 5 Free'>&#xf21b;</span> User Secret
+<span lang='Trademark'face='Font Awesome 5 Free'>&#xf25c;</span> Trademark
+<span lang='Blind'face='Font Awesome 5 Free'>&#xf29d;</span> Blind
+<span lang='Registered Trademark'face='Font Awesome 5 Free'>&#xf25d;</span> Registered Trademark
+<span lang='Motorcycle'face='Font Awesome 5 Free'>&#xf21c;</span> Motorcycle
+<span lang='Audio Description'face='Font Awesome 5 Free'>&#xf29e;</span> Audio Description
+<span lang='Street View'face='Font Awesome 5 Free'>&#xf21d;</span> Street View
+<span lang='Creative Commons'face='Font Awesome 5 Free'>&#xf25e;</span> Creative Commons
+<span lang='Heartbeat'face='Font Awesome 5 Free'>&#xf21e;</span> Heartbeat
+<span lang='Line'face='Font Awesome 5 Free'>&#xf3c0;</span> Line
+<span lang='Lock Open'face='Font Awesome 5 Free'>&#xf3c1;</span> Lock Open
+<span lang='lyft'face='Font Awesome 5 Free'>&#xf3c3;</span> lyft
+<span lang='user-md'face='Font Awesome 5 Free'>&#xf0f0;</span> user-md
+<span lang='Magento'face='Font Awesome 5 Free'>&#xf3c4;</span> Magento
+<span lang='Stethoscope'face='Font Awesome 5 Free'>&#xf0f1;</span> Stethoscope
+<span lang='Map Marker-alt'face='Font Awesome 5 Free'>&#xf3c5;</span> Map Marker-alt
+<span lang='Filter'face='Font Awesome 5 Free'>&#xf0b0;</span> Filter
+<span lang='Suitcase'face='Font Awesome 5 Free'>&#xf0f2;</span> Suitcase
+<span lang='MedApps'face='Font Awesome 5 Free'>&#xf3c6;</span> MedApps
+<span lang='Briefcase'face='Font Awesome 5 Free'>&#xf0b1;</span> Briefcase
+<span lang='Medium M'face='Font Awesome 5 Free'>&#xf3c7;</span> Medium M
+<span lang='Alternate Arrows'face='Font Awesome 5 Free'>&#xf0b2;</span> Alternate Arrows
+<span lang='bell'face='Font Awesome 5 Free'>&#xf0f3;</span> bell
+<span lang='MRT'face='Font Awesome 5 Free'>&#xf3c8;</span> MRT
+<span lang='Coffee'face='Font Awesome 5 Free'>&#xf0f4;</span> Coffee
+<span lang='iOS App Store'face='Font Awesome 5 Free'>&#xf370;</span> iOS App Store
+<span lang='Apper Systems AB'face='Font Awesome 5 Free'>&#xf371;</span> Apper Systems AB
+<span lang='hospital'face='Font Awesome 5 Free'>&#xf0f8;</span> hospital
+<span lang='Asymmetrik, Ltd.'face='Font Awesome 5 Free'>&#xf372;</span> Asymmetrik, Ltd.
+<span lang='ambulance'face='Font Awesome 5 Free'>&#xf0f9;</span> ambulance
+<span lang='Audible'face='Font Awesome 5 Free'>&#xf373;</span> Audible
+<span lang='avianex'face='Font Awesome 5 Free'>&#xf374;</span> avianex
+<span lang='Amazon Web Services (AWS)'face='Font Awesome 5 Free'>&#xf375;</span> Amazon Web Services (AWS)
+<span lang='arrow-left'face='Font Awesome 5 Free'>&#xf060;</span> arrow-left
+<span lang='arrow-right'face='Font Awesome 5 Free'>&#xf061;</span> arrow-right
+<span lang='Sync'face='Font Awesome 5 Free'>&#xf021;</span> Sync
+<span lang='arrow-up'face='Font Awesome 5 Free'>&#xf062;</span> arrow-up
+<span lang='list-alt'face='Font Awesome 5 Free'>&#xf022;</span> list-alt
+<span lang='BIMobject'face='Font Awesome 5 Free'>&#xf378;</span> BIMobject
+<span lang='Alternate Arrows Horizontal'face='Font Awesome 5 Free'>&#xf337;</span> Alternate Arrows Horizontal
+<span lang='arrow-down'face='Font Awesome 5 Free'>&#xf063;</span> arrow-down
+<span lang='Share'face='Font Awesome 5 Free'>&#xf064;</span> Share
+<span lang='lock'face='Font Awesome 5 Free'>&#xf023;</span> lock
+<span lang='Alternate Arrows Vertical'face='Font Awesome 5 Free'>&#xf338;</span> Alternate Arrows Vertical
+<span lang='Bitcoin'face='Font Awesome 5 Free'>&#xf379;</span> Bitcoin
+<span lang='Expand'face='Font Awesome 5 Free'>&#xf065;</span> Expand
+<span lang='flag'face='Font Awesome 5 Free'>&#xf024;</span> flag
+<span lang='Compress'face='Font Awesome 5 Free'>&#xf066;</span> Compress
+<span lang='headphones'face='Font Awesome 5 Free'>&#xf025;</span> headphones
+<span lang='volume-off'face='Font Awesome 5 Free'>&#xf026;</span> volume-off
+<span lang='plus'face='Font Awesome 5 Free'>&#xf067;</span> plus
+<span lang='volume-down'face='Font Awesome 5 Free'>&#xf027;</span> volume-down
+<span lang='minus'face='Font Awesome 5 Free'>&#xf068;</span> minus
+<span lang='volume-up'face='Font Awesome 5 Free'>&#xf028;</span> volume-up
+<span lang='asterisk'face='Font Awesome 5 Free'>&#xf069;</span> asterisk
+<span lang='qrcode'face='Font Awesome 5 Free'>&#xf029;</span> qrcode
+<span lang='Microsoft'face='Font Awesome 5 Free'>&#xf3ca;</span> Microsoft
+<span lang='Mix'face='Font Awesome 5 Free'>&#xf3cb;</span> Mix
+<span lang='Mizuni'face='Font Awesome 5 Free'>&#xf3cc;</span> Mizuni
+<span lang='Alternate Mobile'face='Font Awesome 5 Free'>&#xf3cd;</span> Alternate Mobile
+<span lang='medkit'face='Font Awesome 5 Free'>&#xf0fa;</span> medkit
+<span lang='fighter-jet'face='Font Awesome 5 Free'>&#xf0fb;</span> fighter-jet
+<span lang='beer'face='Font Awesome 5 Free'>&#xf0fc;</span> beer
+<span lang='H Square'face='Font Awesome 5 Free'>&#xf0fd;</span> H Square
+<span lang='Plus Square'face='Font Awesome 5 Free'>&#xf0fe;</span> Plus Square
+<span lang='Bity'face='Font Awesome 5 Free'>&#xf37a;</span> Bity
+<span lang='BlackBerry'face='Font Awesome 5 Free'>&#xf37b;</span> BlackBerry
+<span lang='Blogger'face='Font Awesome 5 Free'>&#xf37c;</span> Blogger
+<span lang='Blogger B'face='Font Awesome 5 Free'>&#xf37d;</span> Blogger B
+<span lang='Büromöbel-Experte GmbH & Co. KG.'face='Font Awesome 5 Free'>&#xf37f;</span> Büromöbel-Experte GmbH & Co. KG.
+<span lang='Exclamation Circle'face='Font Awesome 5 Free'>&#xf06a;</span> Exclamation Circle
+<span lang='gift'face='Font Awesome 5 Free'>&#xf06b;</span> gift
+<span lang='barcode'face='Font Awesome 5 Free'>&#xf02a;</span> barcode
+<span lang=''face='Font Awesome 5 Free'>&#xf02b;</span> 
+<span lang='leaf'face='Font Awesome 5 Free'>&#xf06c;</span> leaf
+<span lang=''face='Font Awesome 5 Free'>&#xf02c;</span> 
+<span lang='fire'face='Font Awesome 5 Free'>&#xf06d;</span> fire
+<span lang='Eye'face='Font Awesome 5 Free'>&#xf06e;</span> Eye
+<span lang='book'face='Font Awesome 5 Free'>&#xf02d;</span> book
+<span lang='bookmark'face='Font Awesome 5 Free'>&#xf02e;</span> bookmark
+<span lang='print'face='Font Awesome 5 Free'>&#xf02f;</span> print
+<span lang='Rebel Alliance'face='Font Awesome 5 Free'>&#xf1d0;</span> Rebel Alliance
+<span lang='Galactic Empire'face='Font Awesome 5 Free'>&#xf1d1;</span> Galactic Empire
+<span lang='Git Square'face='Font Awesome 5 Free'>&#xf1d2;</span> Git Square
+<span lang='Git'face='Font Awesome 5 Free'>&#xf1d3;</span> Git
+<span lang='Hacker News'face='Font Awesome 5 Free'>&#xf1d4;</span> Hacker News
+<span lang='Tencent Weibo'face='Font Awesome 5 Free'>&#xf1d5;</span> Tencent Weibo
+<span lang='QQ'face='Font Awesome 5 Free'>&#xf1d6;</span> QQ
+<span lang='Weixin (WeChat)'face='Font Awesome 5 Free'>&#xf1d7;</span> Weixin (WeChat)
+<span lang='Window Close'face='Font Awesome 5 Free'>&#xf410;</span> Window Close
+<span lang='Paper Plane'face='Font Awesome 5 Free'>&#xf1d8;</span> Paper Plane
+<span lang='Wordpress Simple'face='Font Awesome 5 Free'>&#xf411;</span> Wordpress Simple
+<span lang='Xbox'face='Font Awesome 5 Free'>&#xf412;</span> Xbox
+<span lang='Yandex'face='Font Awesome 5 Free'>&#xf413;</span> Yandex
+<span lang='Foursquare'face='Font Awesome 5 Free'>&#xf180;</span> Foursquare
+<span lang='Yandex International'face='Font Awesome 5 Free'>&#xf414;</span> Yandex International
+<span lang='Trello'face='Font Awesome 5 Free'>&#xf181;</span> Trello
+<span lang='Bullseye'face='Font Awesome 5 Free'>&#xf140;</span> Bullseye
+<span lang='Horizontal Ellipsis'face='Font Awesome 5 Free'>&#xf141;</span> Horizontal Ellipsis
+<span lang='Angle Double Left'face='Font Awesome 5 Free'>&#xf100;</span> Angle Double Left
+<span lang='Female'face='Font Awesome 5 Free'>&#xf182;</span> Female
+<span lang='Apple Pay'face='Font Awesome 5 Free'>&#xf415;</span> Apple Pay
+<span lang='Male'face='Font Awesome 5 Free'>&#xf183;</span> Male
+<span lang='Vertical Ellipsis'face='Font Awesome 5 Free'>&#xf142;</span> Vertical Ellipsis
+<span lang='Angle Double Right'face='Font Awesome 5 Free'>&#xf101;</span> Angle Double Right
+<span lang='Apple Pay Credit Card'face='Font Awesome 5 Free'>&#xf416;</span> Apple Pay Credit Card
+<span lang='RSS Square'face='Font Awesome 5 Free'>&#xf143;</span> RSS Square
+<span lang='Angle Double Up'face='Font Awesome 5 Free'>&#xf102;</span> Angle Double Up
+<span lang='Gratipay (Gittip)'face='Font Awesome 5 Free'>&#xf184;</span> Gratipay (Gittip)
+<span lang='Fly'face='Font Awesome 5 Free'>&#xf417;</span> Fly
+<span lang='Sun'face='Font Awesome 5 Free'>&#xf185;</span> Sun
+<span lang='Play Circle'face='Font Awesome 5 Free'>&#xf144;</span> Play Circle
+<span lang='Nintendo Switch'face='Font Awesome 5 Free'>&#xf418;</span> Nintendo Switch
+<span lang='Angle Double Down'face='Font Awesome 5 Free'>&#xf103;</span> Angle Double Down
+<span lang='Node.js'face='Font Awesome 5 Free'>&#xf419;</span> Node.js
+<span lang='Moon'face='Font Awesome 5 Free'>&#xf186;</span> Moon
+<span lang='angle-left'face='Font Awesome 5 Free'>&#xf104;</span> angle-left
+<span lang='Minus Square'face='Font Awesome 5 Free'>&#xf146;</span> Minus Square
+<span lang='angle-right'face='Font Awesome 5 Free'>&#xf105;</span> angle-right
+<span lang='Archive'face='Font Awesome 5 Free'>&#xf187;</span> Archive
+<span lang='angle-up'face='Font Awesome 5 Free'>&#xf106;</span> angle-up
+<span lang='Bug'face='Font Awesome 5 Free'>&#xf188;</span> Bug
+<span lang='VK'face='Font Awesome 5 Free'>&#xf189;</span> VK
+<span lang='angle-down'face='Font Awesome 5 Free'>&#xf107;</span> angle-down
+<span lang='Desktop'face='Font Awesome 5 Free'>&#xf108;</span> Desktop
+<span lang='Laptop'face='Font Awesome 5 Free'>&#xf109;</span> Laptop
+<span lang='History'face='Font Awesome 5 Free'>&#xf1da;</span> History
+<span lang='heading'face='Font Awesome 5 Free'>&#xf1dc;</span> heading
+<span lang='paragraph'face='Font Awesome 5 Free'>&#xf1dd;</span> paragraph
+<span lang='Horizontal Sliders'face='Font Awesome 5 Free'>&#xf1de;</span> Horizontal Sliders
+<span lang='Open Source Initiative'face='Font Awesome 5 Free'>&#xf41a;</span> Open Source Initiative
+<span lang='React'face='Font Awesome 5 Free'>&#xf41b;</span> React
+<span lang='Autoprefixer'face='Font Awesome 5 Free'>&#xf41c;</span> Autoprefixer
+<span lang='Weibo'face='Font Awesome 5 Free'>&#xf18a;</span> Weibo
+<span lang='Less'face='Font Awesome 5 Free'>&#xf41d;</span> Less
+<span lang='Sass'face='Font Awesome 5 Free'>&#xf41e;</span> Sass
+<span lang='Renren'face='Font Awesome 5 Free'>&#xf18b;</span> Renren
+<span lang='Check Square'face='Font Awesome 5 Free'>&#xf14a;</span> Check Square
+<span lang='Vue.js'face='Font Awesome 5 Free'>&#xf41f;</span> Vue.js
+<span lang='tablet'face='Font Awesome 5 Free'>&#xf10a;</span> tablet
+<span lang='Pen Square'face='Font Awesome 5 Free'>&#xf14b;</span> Pen Square
+<span lang='Pagelines'face='Font Awesome 5 Free'>&#xf18c;</span> Pagelines
+<span lang='Stack Exchange'face='Font Awesome 5 Free'>&#xf18d;</span> Stack Exchange
+<span lang='Mobile Phone'face='Font Awesome 5 Free'>&#xf10b;</span> Mobile Phone
+<span lang='Share Square'face='Font Awesome 5 Free'>&#xf14d;</span> Share Square
+<span lang='quote-left'face='Font Awesome 5 Free'>&#xf10d;</span> quote-left
+<span lang='Compass'face='Font Awesome 5 Free'>&#xf14e;</span> Compass
+<span lang='quote-right'face='Font Awesome 5 Free'>&#xf10e;</span> quote-right
+<span lang='Alternate Sync'face='Font Awesome 5 Free'>&#xf2f1;</span> Alternate Sync
+<span lang='First Order'face='Font Awesome 5 Free'>&#xf2b0;</span> First Order
+<span lang='Yoast'face='Font Awesome 5 Free'>&#xf2b1;</span> Yoast
+<span lang='Stopwatch'face='Font Awesome 5 Free'>&#xf2f2;</span> Stopwatch
+<span lang='ThemeIsle'face='Font Awesome 5 Free'>&#xf2b2;</span> ThemeIsle
+<span lang='Google Plus'face='Font Awesome 5 Free'>&#xf2b3;</span> Google Plus
+<span lang='Alernate Sign Out'face='Font Awesome 5 Free'>&#xf2f5;</span> Alernate Sign Out
+<span lang='Font Awesome'face='Font Awesome 5 Free'>&#xf2b4;</span> Font Awesome
+<span lang='Alernate Sign In'face='Font Awesome 5 Free'>&#xf2f6;</span> Alernate Sign In
+<span lang='Handshake'face='Font Awesome 5 Free'>&#xf2b5;</span> Handshake
+<span lang='Envelope Open'face='Font Awesome 5 Free'>&#xf2b6;</span> Envelope Open
+<span lang='Alternate Redo'face='Font Awesome 5 Free'>&#xf2f9;</span> Alternate Redo
+<span lang='Linode'face='Font Awesome 5 Free'>&#xf2b8;</span> Linode
+<span lang='Address Book'face='Font Awesome 5 Free'>&#xf2b9;</span> Address Book
+<span lang='GG Currency'face='Font Awesome 5 Free'>&#xf260;</span> GG Currency
+<span lang='GG Currency Circle'face='Font Awesome 5 Free'>&#xf261;</span> GG Currency Circle
+<span lang='Venus'face='Font Awesome 5 Free'>&#xf221;</span> Venus
+<span lang='TripAdvisor'face='Font Awesome 5 Free'>&#xf262;</span> TripAdvisor
+<span lang='Odnoklassniki'face='Font Awesome 5 Free'>&#xf263;</span> Odnoklassniki
+<span lang='Mars'face='Font Awesome 5 Free'>&#xf222;</span> Mars
+<span lang='Odnoklassniki Square'face='Font Awesome 5 Free'>&#xf264;</span> Odnoklassniki Square
+<span lang='Mercury'face='Font Awesome 5 Free'>&#xf223;</span> Mercury
+<span lang='Transgender'face='Font Awesome 5 Free'>&#xf224;</span> Transgender
+<span lang='Get Pocket'face='Font Awesome 5 Free'>&#xf265;</span> Get Pocket
+<span lang='Wikipedia W'face='Font Awesome 5 Free'>&#xf266;</span> Wikipedia W
+<span lang='Alternate Transgender'face='Font Awesome 5 Free'>&#xf225;</span> Alternate Transgender
+<span lang='Venus Double'face='Font Awesome 5 Free'>&#xf226;</span> Venus Double
+<span lang='Safari'face='Font Awesome 5 Free'>&#xf267;</span> Safari
+<span lang='Mars Double'face='Font Awesome 5 Free'>&#xf227;</span> Mars Double
+<span lang='Chrome'face='Font Awesome 5 Free'>&#xf268;</span> Chrome
+<span lang='Venus Mars'face='Font Awesome 5 Free'>&#xf228;</span> Venus Mars
+<span lang='Firefox'face='Font Awesome 5 Free'>&#xf269;</span> Firefox
+<span lang='Mars Stroke'face='Font Awesome 5 Free'>&#xf229;</span> Mars Stroke
+<span lang='Address Card'face='Font Awesome 5 Free'>&#xf2bb;</span> Address Card
+<span lang='User Circle'face='Font Awesome 5 Free'>&#xf2bd;</span> User Circle
+<span lang='Opera'face='Font Awesome 5 Free'>&#xf26a;</span> Opera
+<span lang='Mars Stroke Vertical'face='Font Awesome 5 Free'>&#xf22a;</span> Mars Stroke Vertical
+<span lang='Internet-explorer'face='Font Awesome 5 Free'>&#xf26b;</span> Internet-explorer
+<span lang='Television'face='Font Awesome 5 Free'>&#xf26c;</span> Television
+<span lang='Mars Stroke Horizontal'face='Font Awesome 5 Free'>&#xf22b;</span> Mars Stroke Horizontal
+<span lang='Neuter'face='Font Awesome 5 Free'>&#xf22c;</span> Neuter
+<span lang='Contao'face='Font Awesome 5 Free'>&#xf26d;</span> Contao
+<span lang='500px'face='Font Awesome 5 Free'>&#xf26e;</span> 500px
+<span lang='Genderless'face='Font Awesome 5 Free'>&#xf22d;</span> Genderless
+<span lang='Monero'face='Font Awesome 5 Free'>&#xf3d0;</span> Monero
+<span lang='Money Bill-alt'face='Font Awesome 5 Free'>&#xf3d1;</span> Money Bill-alt
+<span lang='Napster'face='Font Awesome 5 Free'>&#xf3d2;</span> Napster
+<span lang='Node.js JS'face='Font Awesome 5 Free'>&#xf3d3;</span> Node.js JS
+<span lang='npm'face='Font Awesome 5 Free'>&#xf3d4;</span> npm
+<span lang='Users'face='Font Awesome 5 Free'>&#xf0c0;</span> Users
+<span lang='NS8'face='Font Awesome 5 Free'>&#xf3d5;</span> NS8
+<span lang='Nutritionix'face='Font Awesome 5 Free'>&#xf3d6;</span> Nutritionix
+<span lang='Link'face='Font Awesome 5 Free'>&#xf0c1;</span> Link
+<span lang='page4 Corporation'face='Font Awesome 5 Free'>&#xf3d7;</span> page4 Corporation
+<span lang='Cloud'face='Font Awesome 5 Free'>&#xf0c2;</span> Cloud
+<span lang='PalFed'face='Font Awesome 5 Free'>&#xf3d8;</span> PalFed
+<span lang='Flask'face='Font Awesome 5 Free'>&#xf0c3;</span> Flask
+<span lang='Patreon'face='Font Awesome 5 Free'>&#xf3d9;</span> Patreon
+<span lang='Cut'face='Font Awesome 5 Free'>&#xf0c4;</span> Cut
+<span lang='Copy'face='Font Awesome 5 Free'>&#xf0c5;</span> Copy
+<span lang='Paperclip'face='Font Awesome 5 Free'>&#xf0c6;</span> Paperclip
+<span lang='Centercode'face='Font Awesome 5 Free'>&#xf380;</span> Centercode
+<span lang='Save'face='Font Awesome 5 Free'>&#xf0c7;</span> Save
+<span lang='Cloud Download-alt'face='Font Awesome 5 Free'>&#xf381;</span> Cloud Download-alt
+<span lang='Square'face='Font Awesome 5 Free'>&#xf0c8;</span> Square
+<span lang='Cloud Upload-alt'face='Font Awesome 5 Free'>&#xf382;</span> Cloud Upload-alt
+<span lang='Bars'face='Font Awesome 5 Free'>&#xf0c9;</span> Bars
+<span lang='cloudscale.ch'face='Font Awesome 5 Free'>&#xf383;</span> cloudscale.ch
+<span lang='Cloudsmith'face='Font Awesome 5 Free'>&#xf384;</span> Cloudsmith
+<span lang='Images'face='Font Awesome 5 Free'>&#xf302;</span> Images
+<span lang='Alternate Pencil'face='Font Awesome 5 Free'>&#xf303;</span> Alternate Pencil
+<span lang='cloudversify'face='Font Awesome 5 Free'>&#xf385;</span> cloudversify
+<span lang='Eye Slash'face='Font Awesome 5 Free'>&#xf070;</span> Eye Slash
+<span lang='Exclamation Triangle'face='Font Awesome 5 Free'>&#xf071;</span> Exclamation Triangle
+<span lang='camera'face='Font Awesome 5 Free'>&#xf030;</span> camera
+<span lang='plane'face='Font Awesome 5 Free'>&#xf072;</span> plane
+<span lang='font'face='Font Awesome 5 Free'>&#xf031;</span> font
+<span lang='cPanel'face='Font Awesome 5 Free'>&#xf388;</span> cPanel
+<span lang='Alternate Calendar'face='Font Awesome 5 Free'>&#xf073;</span> Alternate Calendar
+<span lang='bold'face='Font Awesome 5 Free'>&#xf032;</span> bold
+<span lang='random'face='Font Awesome 5 Free'>&#xf074;</span> random
+<span lang='italic'face='Font Awesome 5 Free'>&#xf033;</span> italic
+<span lang='text-height'face='Font Awesome 5 Free'>&#xf034;</span> text-height
+<span lang='comment'face='Font Awesome 5 Free'>&#xf075;</span> comment
+<span lang='text-width'face='Font Awesome 5 Free'>&#xf035;</span> text-width
+<span lang='magnet'face='Font Awesome 5 Free'>&#xf076;</span> magnet
+<span lang='Alternate Long Arrow Down'face='Font Awesome 5 Free'>&#xf309;</span> Alternate Long Arrow Down
+<span lang='chevron-up'face='Font Awesome 5 Free'>&#xf077;</span> chevron-up
+<span lang='align-left'face='Font Awesome 5 Free'>&#xf036;</span> align-left
+<span lang='chevron-down'face='Font Awesome 5 Free'>&#xf078;</span> chevron-down
+<span lang='align-center'face='Font Awesome 5 Free'>&#xf037;</span> align-center
+<span lang='Retweet'face='Font Awesome 5 Free'>&#xf079;</span> Retweet
+<span lang='align-right'face='Font Awesome 5 Free'>&#xf038;</span> align-right
+<span lang='align-justify'face='Font Awesome 5 Free'>&#xf039;</span> align-justify
+<span lang='Periscope'face='Font Awesome 5 Free'>&#xf3da;</span> Periscope
+<span lang='Phabricator'face='Font Awesome 5 Free'>&#xf3db;</span> Phabricator
+<span lang='Phoenix Framework'face='Font Awesome 5 Free'>&#xf3dc;</span> Phoenix Framework
+<span lang='PlayStation'face='Font Awesome 5 Free'>&#xf3df;</span> PlayStation
+<span lang='list-ul'face='Font Awesome 5 Free'>&#xf0ca;</span> list-ul
+<span lang='list-ol'face='Font Awesome 5 Free'>&#xf0cb;</span> list-ol
+<span lang='Strikethrough'face='Font Awesome 5 Free'>&#xf0cc;</span> Strikethrough
+<span lang='Underline'face='Font Awesome 5 Free'>&#xf0cd;</span> Underline
+<span lang='table'face='Font Awesome 5 Free'>&#xf0ce;</span> table
+<span lang='Alternate CSS3 Logo'face='Font Awesome 5 Free'>&#xf38b;</span> Alternate CSS3 Logo
+<span lang='Alternate Long Arrow Left'face='Font Awesome 5 Free'>&#xf30a;</span> Alternate Long Arrow Left
+<span lang='Cuttlefish'face='Font Awesome 5 Free'>&#xf38c;</span> Cuttlefish
+<span lang='Alternate Long Arrow Right'face='Font Awesome 5 Free'>&#xf30b;</span> Alternate Long Arrow Right
+<span lang='Dungeons & Dragons'face='Font Awesome 5 Free'>&#xf38d;</span> Dungeons & Dragons
+<span lang='Alternate Long Arrow Up'face='Font Awesome 5 Free'>&#xf30c;</span> Alternate Long Arrow Up
+<span lang='deploy.dog'face='Font Awesome 5 Free'>&#xf38e;</span> deploy.dog
+<span lang='shopping-cart'face='Font Awesome 5 Free'>&#xf07a;</span> shopping-cart
+<span lang='Deskpro'face='Font Awesome 5 Free'>&#xf38f;</span> Deskpro
+<span lang='list'face='Font Awesome 5 Free'>&#xf03a;</span> list
+<span lang='Folder'face='Font Awesome 5 Free'>&#xf07b;</span> Folder
+<span lang='Outdent'face='Font Awesome 5 Free'>&#xf03b;</span> Outdent
+<span lang='Folder Open'face='Font Awesome 5 Free'>&#xf07c;</span> Folder Open
+<span lang='Indent'face='Font Awesome 5 Free'>&#xf03c;</span> Indent
+<span lang='Video'face='Font Awesome 5 Free'>&#xf03d;</span> Video
+<span lang='Image'face='Font Awesome 5 Free'>&#xf03e;</span> Image
+<span lang='Alternate Share'face='Font Awesome 5 Free'>&#xf1e0;</span> Alternate Share
+<span lang='Alternate Share Square'face='Font Awesome 5 Free'>&#xf1e1;</span> Alternate Share Square
+<span lang='Google Logo'face='Font Awesome 5 Free'>&#xf1a0;</span> Google Logo
+<span lang='reddit Logo'face='Font Awesome 5 Free'>&#xf1a1;</span> reddit Logo
+<span lang='Bomb'face='Font Awesome 5 Free'>&#xf1e2;</span> Bomb
+<span lang='reddit Square'face='Font Awesome 5 Free'>&#xf1a2;</span> reddit Square
+<span lang='Futbol'face='Font Awesome 5 Free'>&#xf1e3;</span> Futbol
+<span lang='TTY'face='Font Awesome 5 Free'>&#xf1e4;</span> TTY
+<span lang='StumbleUpon Circle'face='Font Awesome 5 Free'>&#xf1a3;</span> StumbleUpon Circle
+<span lang='StumbleUpon Logo'face='Font Awesome 5 Free'>&#xf1a4;</span> StumbleUpon Logo
+<span lang='Binoculars'face='Font Awesome 5 Free'>&#xf1e5;</span> Binoculars
+<span lang='Plug'face='Font Awesome 5 Free'>&#xf1e6;</span> Plug
+<span lang='Delicious Logo'face='Font Awesome 5 Free'>&#xf1a5;</span> Delicious Logo
+<span lang='Slideshare'face='Font Awesome 5 Free'>&#xf1e7;</span> Slideshare
+<span lang='Digg Logo'face='Font Awesome 5 Free'>&#xf1a6;</span> Digg Logo
+<span lang='Twitch'face='Font Awesome 5 Free'>&#xf1e8;</span> Twitch
+<span lang='Pied Piper PP Logo (Old)'face='Font Awesome 5 Free'>&#xf1a7;</span> Pied Piper PP Logo (Old)
+<span lang='Angular'face='Font Awesome 5 Free'>&#xf420;</span> Angular
+<span lang='Yelp'face='Font Awesome 5 Free'>&#xf1e9;</span> Yelp
+<span lang='Alternate Pied Piper Logo'face='Font Awesome 5 Free'>&#xf1a8;</span> Alternate Pied Piper Logo
+<span lang='Aviato'face='Font Awesome 5 Free'>&#xf421;</span> Aviato
+<span lang='Drupal Logo'face='Font Awesome 5 Free'>&#xf1a9;</span> Drupal Logo
+<span lang='Ember'face='Font Awesome 5 Free'>&#xf423;</span> Ember
+<span lang='Caret Square Left'face='Font Awesome 5 Free'>&#xf191;</span> Caret Square Left
+<span lang='Caret Square Down'face='Font Awesome 5 Free'>&#xf150;</span> Caret Square Down
+<span lang='Spinner'face='Font Awesome 5 Free'>&#xf110;</span> Spinner
+<span lang='Dot Circle'face='Font Awesome 5 Free'>&#xf192;</span> Dot Circle
+<span lang='Font Awesome Flag'face='Font Awesome 5 Free'>&#xf425;</span> Font Awesome Flag
+<span lang='Caret Square Up'face='Font Awesome 5 Free'>&#xf151;</span> Caret Square Up
+<span lang='Wheelchair'face='Font Awesome 5 Free'>&#xf193;</span> Wheelchair
+<span lang='Gitter'face='Font Awesome 5 Free'>&#xf426;</span> Gitter
+<span lang='Caret Square Right'face='Font Awesome 5 Free'>&#xf152;</span> Caret Square Right
+<span lang='Circle'face='Font Awesome 5 Free'>&#xf111;</span> Circle
+<span lang='Vimeo Square'face='Font Awesome 5 Free'>&#xf194;</span> Vimeo Square
+<span lang='Hooli'face='Font Awesome 5 Free'>&#xf427;</span> Hooli
+<span lang='Euro Sign'face='Font Awesome 5 Free'>&#xf153;</span> Euro Sign
+<span lang='Strava'face='Font Awesome 5 Free'>&#xf428;</span> Strava
+<span lang='Pound Sign'face='Font Awesome 5 Free'>&#xf154;</span> Pound Sign
+<span lang='Turkish Lira Sign'face='Font Awesome 5 Free'>&#xf195;</span> Turkish Lira Sign
+<span lang='Alternate GitHub'face='Font Awesome 5 Free'>&#xf113;</span> Alternate GitHub
+<span lang='Stripe'face='Font Awesome 5 Free'>&#xf429;</span> Stripe
+<span lang='Dollar Sign'face='Font Awesome 5 Free'>&#xf155;</span> Dollar Sign
+<span lang='Space Shuttle'face='Font Awesome 5 Free'>&#xf197;</span> Space Shuttle
+<span lang='Indian Rupee Sign'face='Font Awesome 5 Free'>&#xf156;</span> Indian Rupee Sign
+<span lang='Yen Sign'face='Font Awesome 5 Free'>&#xf157;</span> Yen Sign
+<span lang='Slack Logo'face='Font Awesome 5 Free'>&#xf198;</span> Slack Logo
+<span lang='Ruble Sign'face='Font Awesome 5 Free'>&#xf158;</span> Ruble Sign
+<span lang='Envelope Square'face='Font Awesome 5 Free'>&#xf199;</span> Envelope Square
+<span lang='Won Sign'face='Font Awesome 5 Free'>&#xf159;</span> Won Sign
+<span lang='Smile'face='Font Awesome 5 Free'>&#xf118;</span> Smile
+<span lang='Frown'face='Font Awesome 5 Free'>&#xf119;</span> Frown
+<span lang='Newspaper'face='Font Awesome 5 Free'>&#xf1ea;</span> Newspaper
+<span lang='WiFi'face='Font Awesome 5 Free'>&#xf1eb;</span> WiFi
+<span lang='Joomla Logo'face='Font Awesome 5 Free'>&#xf1aa;</span> Joomla Logo
+<span lang='Language'face='Font Awesome 5 Free'>&#xf1ab;</span> Language
+<span lang='Calculator'face='Font Awesome 5 Free'>&#xf1ec;</span> Calculator
+<span lang='Paypal'face='Font Awesome 5 Free'>&#xf1ed;</span> Paypal
+<span lang='Fax'face='Font Awesome 5 Free'>&#xf1ac;</span> Fax
+<span lang='Google Wallet'face='Font Awesome 5 Free'>&#xf1ee;</span> Google Wallet
+<span lang='Building'face='Font Awesome 5 Free'>&#xf1ad;</span> Building
+<span lang='Child'face='Font Awesome 5 Free'>&#xf1ae;</span> Child
+<span lang='Stripe S'face='Font Awesome 5 Free'>&#xf42a;</span> Stripe S
+<span lang='Typo3'face='Font Awesome 5 Free'>&#xf42b;</span> Typo3
+<span lang='Amazon Pay'face='Font Awesome 5 Free'>&#xf42c;</span> Amazon Pay
+<span lang='WordPress Logo'face='Font Awesome 5 Free'>&#xf19a;</span> WordPress Logo
+<span lang='Amazon Pay Credit Card'face='Font Awesome 5 Free'>&#xf42d;</span> Amazon Pay Credit Card
+<span lang='OpenID'face='Font Awesome 5 Free'>&#xf19b;</span> OpenID
+<span lang='Ethereum'face='Font Awesome 5 Free'>&#xf42e;</span> Ethereum
+<span lang='BTC'face='Font Awesome 5 Free'>&#xf15a;</span> BTC
+<span lang='University'face='Font Awesome 5 Free'>&#xf19c;</span> University
+<span lang='Meh'face='Font Awesome 5 Free'>&#xf11a;</span> Meh
+<span lang='KORVUE'face='Font Awesome 5 Free'>&#xf42f;</span> KORVUE
+<span lang='File'face='Font Awesome 5 Free'>&#xf15b;</span> File
+<span lang='Graduation Cap'face='Font Awesome 5 Free'>&#xf19d;</span> Graduation Cap
+<span lang='Alternate File'face='Font Awesome 5 Free'>&#xf15c;</span> Alternate File
+<span lang='Gamepad'face='Font Awesome 5 Free'>&#xf11b;</span> Gamepad
+<span lang='Yahoo Logo'face='Font Awesome 5 Free'>&#xf19e;</span> Yahoo Logo
+<span lang='Sort Alpha Down'face='Font Awesome 5 Free'>&#xf15d;</span> Sort Alpha Down
+<span lang='Keyboard'face='Font Awesome 5 Free'>&#xf11c;</span> Keyboard
+<span lang='Sort Alpha Up'face='Font Awesome 5 Free'>&#xf15e;</span> Sort Alpha Up
+<span lang='flag-checkered'face='Font Awesome 5 Free'>&#xf11e;</span> flag-checkered
+<span lang='Identification Badge'face='Font Awesome 5 Free'>&#xf2c1;</span> Identification Badge
+<span lang='Identification Card'face='Font Awesome 5 Free'>&#xf2c2;</span> Identification Card
+<span lang='Quora'face='Font Awesome 5 Free'>&#xf2c4;</span> Quora
+<span lang='Free Code Camp'face='Font Awesome 5 Free'>&#xf2c5;</span> Free Code Camp
+<span lang='Telegram'face='Font Awesome 5 Free'>&#xf2c6;</span> Telegram
+<span lang='Thermometer Full'face='Font Awesome 5 Free'>&#xf2c7;</span> Thermometer Full
+<span lang='Thermometer 3/4 Full'face='Font Awesome 5 Free'>&#xf2c8;</span> Thermometer 3/4 Full
+<span lang='Thermometer 1/2 Full'face='Font Awesome 5 Free'>&#xf2c9;</span> Thermometer 1/2 Full
+<span lang='Amazon'face='Font Awesome 5 Free'>&#xf270;</span> Amazon
+<span lang='Calendar Plus'face='Font Awesome 5 Free'>&#xf271;</span> Calendar Plus
+<span lang='Pinterest P'face='Font Awesome 5 Free'>&#xf231;</span> Pinterest P
+<span lang='Calendar Minus'face='Font Awesome 5 Free'>&#xf272;</span> Calendar Minus
+<span lang='Whats App'face='Font Awesome 5 Free'>&#xf232;</span> Whats App
+<span lang='Calendar Times'face='Font Awesome 5 Free'>&#xf273;</span> Calendar Times
+<span lang='Server'face='Font Awesome 5 Free'>&#xf233;</span> Server
+<span lang='Calendar Check'face='Font Awesome 5 Free'>&#xf274;</span> Calendar Check
+<span lang='Add User'face='Font Awesome 5 Free'>&#xf234;</span> Add User
+<span lang='Industry'face='Font Awesome 5 Free'>&#xf275;</span> Industry
+<span lang='Remove User'face='Font Awesome 5 Free'>&#xf235;</span> Remove User
+<span lang='Map Pin'face='Font Awesome 5 Free'>&#xf276;</span> Map Pin
+<span lang='Map Signs'face='Font Awesome 5 Free'>&#xf277;</span> Map Signs
+<span lang='Bed'face='Font Awesome 5 Free'>&#xf236;</span> Bed
+<span lang='Viacoin'face='Font Awesome 5 Free'>&#xf237;</span> Viacoin
+<span lang='Train'face='Font Awesome 5 Free'>&#xf238;</span> Train
+<span lang='Map'face='Font Awesome 5 Free'>&#xf279;</span> Map
+<span lang='Subway'face='Font Awesome 5 Free'>&#xf239;</span> Subway
+<span lang='Thermometer 1/4 Full'face='Font Awesome 5 Free'>&#xf2ca;</span> Thermometer 1/4 Full
+<span lang='Thermometer Empty'face='Font Awesome 5 Free'>&#xf2cb;</span> Thermometer Empty
+<span lang='Shower'face='Font Awesome 5 Free'>&#xf2cc;</span> Shower
+<span lang='Bath'face='Font Awesome 5 Free'>&#xf2cd;</span> Bath
+<span lang='Podcast'face='Font Awesome 5 Free'>&#xf2ce;</span> Podcast
+<span lang='Alternate Comment'face='Font Awesome 5 Free'>&#xf27a;</span> Alternate Comment
+<span lang='Medium'face='Font Awesome 5 Free'>&#xf23a;</span> Medium
+<span lang='Y Combinator'face='Font Awesome 5 Free'>&#xf23b;</span> Y Combinator
+<span lang='Houzz'face='Font Awesome 5 Free'>&#xf27c;</span> Houzz
+<span lang='Vimeo'face='Font Awesome 5 Free'>&#xf27d;</span> Vimeo
+<span lang='Optin Monster'face='Font Awesome 5 Free'>&#xf23c;</span> Optin Monster
+<span lang='OpenCart'face='Font Awesome 5 Free'>&#xf23d;</span> OpenCart
+<span lang='Font Awesome Black Tie'face='Font Awesome 5 Free'>&#xf27e;</span> Font Awesome Black Tie
+<span lang='ExpeditedSSL'face='Font Awesome 5 Free'>&#xf23e;</span> ExpeditedSSL
+<span lang='Pushed'face='Font Awesome 5 Free'>&#xf3e1;</span> Pushed
+<span lang='Python'face='Font Awesome 5 Free'>&#xf3e2;</span> Python
+<span lang='firstdraft'face='Font Awesome 5 Free'>&#xf3a1;</span> firstdraft
+<span lang='red river'face='Font Awesome 5 Free'>&#xf3e3;</span> red river
+<span lang='Fonticons Fi'face='Font Awesome 5 Free'>&#xf3a2;</span> Fonticons Fi
+<span lang='Rendact'face='Font Awesome 5 Free'>&#xf3e4;</span> Rendact
+<span lang='Alternate Fort Awesome'face='Font Awesome 5 Free'>&#xf3a3;</span> Alternate Fort Awesome
+<span lang='Reply'face='Font Awesome 5 Free'>&#xf3e5;</span> Reply
+<span lang='magic'face='Font Awesome 5 Free'>&#xf0d0;</span> magic
+<span lang='FreeBSD'face='Font Awesome 5 Free'>&#xf3a4;</span> FreeBSD
+<span lang='truck'face='Font Awesome 5 Free'>&#xf0d1;</span> truck
+<span lang='replyd'face='Font Awesome 5 Free'>&#xf3e6;</span> replyd
+<span lang='Gem'face='Font Awesome 5 Free'>&#xf3a5;</span> Gem
+<span lang='Resolving'face='Font Awesome 5 Free'>&#xf3e7;</span> Resolving
+<span lang='Pinterest'face='Font Awesome 5 Free'>&#xf0d2;</span> Pinterest
+<span lang='GitKraken'face='Font Awesome 5 Free'>&#xf3a6;</span> GitKraken
+<span lang='Rocket.Chat'face='Font Awesome 5 Free'>&#xf3e8;</span> Rocket.Chat
+<span lang='Pinterest Square'face='Font Awesome 5 Free'>&#xf0d3;</span> Pinterest Square
+<span lang='Gofore'face='Font Awesome 5 Free'>&#xf3a7;</span> Gofore
+<span lang='Rock RMS'face='Font Awesome 5 Free'>&#xf3e9;</span> Rock RMS
+<span lang='Goodreads'face='Font Awesome 5 Free'>&#xf3a8;</span> Goodreads
+<span lang='Google Plus Square'face='Font Awesome 5 Free'>&#xf0d4;</span> Google Plus Square
+<span lang='Goodreads G'face='Font Awesome 5 Free'>&#xf3a9;</span> Goodreads G
+<span lang='Google Plus G'face='Font Awesome 5 Free'>&#xf0d5;</span> Google Plus G
+<span lang='Digital Ocean'face='Font Awesome 5 Free'>&#xf391;</span> Digital Ocean
+<span lang='Caret Down'face='Font Awesome 5 Free'>&#xf0d7;</span> Caret Down
+<span lang='Caret Up'face='Font Awesome 5 Free'>&#xf0d8;</span> Caret Up
+<span lang='Discord'face='Font Awesome 5 Free'>&#xf392;</span> Discord
+<span lang='Caret Left'face='Font Awesome 5 Free'>&#xf0d9;</span> Caret Left
+<span lang='Discourse'face='Font Awesome 5 Free'>&#xf393;</span> Discourse
+<span lang='DocHub'face='Font Awesome 5 Free'>&#xf394;</span> DocHub
+<span lang='Bar Chart'face='Font Awesome 5 Free'>&#xf080;</span> Bar Chart
+<span lang='Docker'face='Font Awesome 5 Free'>&#xf395;</span> Docker
+<span lang='Twitter Square'face='Font Awesome 5 Free'>&#xf081;</span> Twitter Square
+<span lang='Draft2Digital'face='Font Awesome 5 Free'>&#xf396;</span> Draft2Digital
+<span lang='map-marker'face='Font Awesome 5 Free'>&#xf041;</span> map-marker
+<span lang='Facebook Square'face='Font Awesome 5 Free'>&#xf082;</span> Facebook Square
+<span lang='Martini Glass'face='Font Awesome 5 Free'>&#xf000;</span> Martini Glass
+<span lang='Dribbble Square'face='Font Awesome 5 Free'>&#xf397;</span> Dribbble Square
+<span lang='Music'face='Font Awesome 5 Free'>&#xf001;</span> Music
+<span lang='Retro Camera'face='Font Awesome 5 Free'>&#xf083;</span> Retro Camera
+<span lang='adjust'face='Font Awesome 5 Free'>&#xf042;</span> adjust
+<span lang='tint'face='Font Awesome 5 Free'>&#xf043;</span> tint
+<span lang='Search'face='Font Awesome 5 Free'>&#xf002;</span> Search
+<span lang='key'face='Font Awesome 5 Free'>&#xf084;</span> key
+<span lang='Alternate Arrow Circle Down'face='Font Awesome 5 Free'>&#xf358;</span> Alternate Arrow Circle Down
+<span lang='Dyalog APL'face='Font Awesome 5 Free'>&#xf399;</span> Dyalog APL
+<span lang='Alternate Arrow Circle Left'face='Font Awesome 5 Free'>&#xf359;</span> Alternate Arrow Circle Left
+<span lang='cogs'face='Font Awesome 5 Free'>&#xf085;</span> cogs
+<span lang='Edit'face='Font Awesome 5 Free'>&#xf044;</span> Edit
+<span lang='comments'face='Font Awesome 5 Free'>&#xf086;</span> comments
+<span lang='Heart'face='Font Awesome 5 Free'>&#xf004;</span> Heart
+<span lang='Star'face='Font Awesome 5 Free'>&#xf005;</span> Star
+<span lang='User'face='Font Awesome 5 Free'>&#xf007;</span> User
+<span lang='step-backward'face='Font Awesome 5 Free'>&#xf048;</span> step-backward
+<span lang='star-half'face='Font Awesome 5 Free'>&#xf089;</span> star-half
+<span lang='fast-backward'face='Font Awesome 5 Free'>&#xf049;</span> fast-backward
+<span lang='Film'face='Font Awesome 5 Free'>&#xf008;</span> Film
+<span lang='th-large'face='Font Awesome 5 Free'>&#xf009;</span> th-large
+<span lang='SCHLIX'face='Font Awesome 5 Free'>&#xf3ea;</span> SCHLIX
+<span lang='SearchEng.in'face='Font Awesome 5 Free'>&#xf3eb;</span> SearchEng.in
+<span lang='Google Drive'face='Font Awesome 5 Free'>&#xf3aa;</span> Google Drive
+<span lang='ServiceStack'face='Font Awesome 5 Free'>&#xf3ec;</span> ServiceStack
+<span lang='Google Play'face='Font Awesome 5 Free'>&#xf3ab;</span> Google Play
+<span lang='Alternate Shield'face='Font Awesome 5 Free'>&#xf3ed;</span> Alternate Shield
+<span lang='Gripfire, Inc.'face='Font Awesome 5 Free'>&#xf3ac;</span> Gripfire, Inc.
+<span lang='SISTRIX'face='Font Awesome 5 Free'>&#xf3ee;</span> SISTRIX
+<span lang='Grunt'face='Font Awesome 5 Free'>&#xf3ad;</span> Grunt
+<span lang='Slack Hashtag'face='Font Awesome 5 Free'>&#xf3ef;</span> Slack Hashtag
+<span lang='Gulp'face='Font Awesome 5 Free'>&#xf3ae;</span> Gulp
+<span lang='Caret Right'face='Font Awesome 5 Free'>&#xf0da;</span> Caret Right
+<span lang='Hacker News Square'face='Font Awesome 5 Free'>&#xf3af;</span> Hacker News Square
+<span lang='Columns'face='Font Awesome 5 Free'>&#xf0db;</span> Columns
+<span lang='Sort'face='Font Awesome 5 Free'>&#xf0dc;</span> Sort
+<span lang='Sort Down (Descending)'face='Font Awesome 5 Free'>&#xf0dd;</span> Sort Down (Descending)
+<span lang='Sort Up (Ascending)'face='Font Awesome 5 Free'>&#xf0de;</span> Sort Up (Ascending)
+<span lang='Earlybirds'face='Font Awesome 5 Free'>&#xf39a;</span> Earlybirds
+<span lang='Alternate Arrow Circle Right'face='Font Awesome 5 Free'>&#xf35a;</span> Alternate Arrow Circle Right
+<span lang='Alternate Arrow Circle Up'face='Font Awesome 5 Free'>&#xf35b;</span> Alternate Arrow Circle Up
+<span lang='Erlang'face='Font Awesome 5 Free'>&#xf39d;</span> Erlang
+<span lang='Alternate Font Awesome'face='Font Awesome 5 Free'>&#xf35c;</span> Alternate Font Awesome
+<span lang='Facebook F'face='Font Awesome 5 Free'>&#xf39e;</span> Facebook F
+<span lang='Alternate External Link'face='Font Awesome 5 Free'>&#xf35d;</span> Alternate External Link
+<span lang='Facebook Messenger'face='Font Awesome 5 Free'>&#xf39f;</span> Facebook Messenger
+<span lang='Alternate Expand Arrows'face='Font Awesome 5 Free'>&#xf31e;</span> Alternate Expand Arrows
+<span lang='backward'face='Font Awesome 5 Free'>&#xf04a;</span> backward
+<span lang='th'face='Font Awesome 5 Free'>&#xf00a;</span> th
+<span lang='play'face='Font Awesome 5 Free'>&#xf04b;</span> play
+<span lang='LinkedIn'face='Font Awesome 5 Free'>&#xf08c;</span> LinkedIn
+<span lang='Thumbtack'face='Font Awesome 5 Free'>&#xf08d;</span> Thumbtack
+<span lang='th-list'face='Font Awesome 5 Free'>&#xf00b;</span> th-list
+<span lang='pause'face='Font Awesome 5 Free'>&#xf04c;</span> pause
+<span lang='stop'face='Font Awesome 5 Free'>&#xf04d;</span> stop
+<span lang='Check'face='Font Awesome 5 Free'>&#xf00c;</span> Check
+<span lang='Times'face='Font Awesome 5 Free'>&#xf00d;</span> Times
+<span lang='forward'face='Font Awesome 5 Free'>&#xf04e;</span> forward
+<span lang='Search Plus'face='Font Awesome 5 Free'>&#xf00e;</span> Search Plus
+<span lang='Visa Credit Card'face='Font Awesome 5 Free'>&#xf1f0;</span> Visa Credit Card
+<span lang='Paw'face='Font Awesome 5 Free'>&#xf1b0;</span> Paw
+<span lang='MasterCard Credit Card'face='Font Awesome 5 Free'>&#xf1f1;</span> MasterCard Credit Card
+<span lang='Discover Credit Card'face='Font Awesome 5 Free'>&#xf1f2;</span> Discover Credit Card
+<span lang='American Express Credit Card'face='Font Awesome 5 Free'>&#xf1f3;</span> American Express Credit Card
+<span lang='Cube'face='Font Awesome 5 Free'>&#xf1b2;</span> Cube
+<span lang='Paypal Credit Card'face='Font Awesome 5 Free'>&#xf1f4;</span> Paypal Credit Card
+<span lang='Cubes'face='Font Awesome 5 Free'>&#xf1b3;</span> Cubes
+<span lang='Stripe Credit Card'face='Font Awesome 5 Free'>&#xf1f5;</span> Stripe Credit Card
+<span lang='Behance'face='Font Awesome 5 Free'>&#xf1b4;</span> Behance
+<span lang='Bell Slash'face='Font Awesome 5 Free'>&#xf1f6;</span> Bell Slash
+<span lang='Behance Square'face='Font Awesome 5 Free'>&#xf1b5;</span> Behance Square
+<span lang='Steam'face='Font Awesome 5 Free'>&#xf1b6;</span> Steam
+<span lang='Trash'face='Font Awesome 5 Free'>&#xf1f8;</span> Trash
+<span lang='Steam Square'face='Font Awesome 5 Free'>&#xf1b7;</span> Steam Square
+<span lang='Elementor'face='Font Awesome 5 Free'>&#xf430;</span> Elementor
+<span lang='YouTube Square'face='Font Awesome 5 Free'>&#xf431;</span> YouTube Square
+<span lang='Recycle'face='Font Awesome 5 Free'>&#xf1b8;</span> Recycle
+<span lang='Copyright'face='Font Awesome 5 Free'>&#xf1f9;</span> Copyright
+<span lang='Car'face='Font Awesome 5 Free'>&#xf1b9;</span> Car
+<span lang='Sort Amount Down'face='Font Awesome 5 Free'>&#xf160;</span> Sort Amount Down
+<span lang='Terminal'face='Font Awesome 5 Free'>&#xf120;</span> Terminal
+<span lang='Sort Amount Up'face='Font Awesome 5 Free'>&#xf161;</span> Sort Amount Up
+<span lang='Sort Numeric Down'face='Font Awesome 5 Free'>&#xf162;</span> Sort Numeric Down
+<span lang='Code'face='Font Awesome 5 Free'>&#xf121;</span> Code
+<span lang='Sort Numeric Up'face='Font Awesome 5 Free'>&#xf163;</span> Sort Numeric Up
+<span lang='reply-all'face='Font Awesome 5 Free'>&#xf122;</span> reply-all
+<span lang='thumbs-up'face='Font Awesome 5 Free'>&#xf164;</span> thumbs-up
+<span lang='thumbs-down'face='Font Awesome 5 Free'>&#xf165;</span> thumbs-down
+<span lang='location-arrow'face='Font Awesome 5 Free'>&#xf124;</span> location-arrow
+<span lang='crop'face='Font Awesome 5 Free'>&#xf125;</span> crop
+<span lang='YouTube'face='Font Awesome 5 Free'>&#xf167;</span> YouTube
+<span lang='Code Branch'face='Font Awesome 5 Free'>&#xf126;</span> Code Branch
+<span lang='Xing'face='Font Awesome 5 Free'>&#xf168;</span> Xing
+<span lang='unlink'face='Font Awesome 5 Free'>&#xf127;</span> unlink
+<span lang='Xing Square'face='Font Awesome 5 Free'>&#xf169;</span> Xing Square
+<span lang='Question'face='Font Awesome 5 Free'>&#xf128;</span> Question
+<span lang='Info'face='Font Awesome 5 Free'>&#xf129;</span> Info
+<span lang='At'face='Font Awesome 5 Free'>&#xf1fa;</span> At
+<span lang='Taxi'face='Font Awesome 5 Free'>&#xf1ba;</span> Taxi
+<span lang='Eye Dropper'face='Font Awesome 5 Free'>&#xf1fb;</span> Eye Dropper
+<span lang='Tree'face='Font Awesome 5 Free'>&#xf1bb;</span> Tree
+<span lang='Paint Brush'face='Font Awesome 5 Free'>&#xf1fc;</span> Paint Brush
+<span lang='Spotify'face='Font Awesome 5 Free'>&#xf1bc;</span> Spotify
+<span lang='Birthday Cake'face='Font Awesome 5 Free'>&#xf1fd;</span> Birthday Cake
+<span lang='Area Chart'face='Font Awesome 5 Free'>&#xf1fe;</span> Area Chart
+<span lang='deviantART'face='Font Awesome 5 Free'>&#xf1bd;</span> deviantART
+<span lang='SoundCloud'face='Font Awesome 5 Free'>&#xf1be;</span> SoundCloud
+<span lang='Dropbox'face='Font Awesome 5 Free'>&#xf16b;</span> Dropbox
+<span lang='exclamation'face='Font Awesome 5 Free'>&#xf12a;</span> exclamation
+<span lang='superscript'face='Font Awesome 5 Free'>&#xf12b;</span> superscript
+<span lang='Stack Overflow'face='Font Awesome 5 Free'>&#xf16c;</span> Stack Overflow
+<span lang='subscript'face='Font Awesome 5 Free'>&#xf12c;</span> subscript
+<span lang='Instagram'face='Font Awesome 5 Free'>&#xf16d;</span> Instagram
+<span lang='Flickr'face='Font Awesome 5 Free'>&#xf16e;</span> Flickr
+<span lang='eraser'face='Font Awesome 5 Free'>&#xf12d;</span> eraser
+<span lang='Puzzle Piece'face='Font Awesome 5 Free'>&#xf12e;</span> Puzzle Piece
+<span lang='Window Maximize'face='Font Awesome 5 Free'>&#xf2d0;</span> Window Maximize
+<span lang='Window Minimize'face='Font Awesome 5 Free'>&#xf2d1;</span> Window Minimize
+<span lang='Window Restore'face='Font Awesome 5 Free'>&#xf2d2;</span> Window Restore
+<span lang='Bandcamp'face='Font Awesome 5 Free'>&#xf2d5;</span> Bandcamp
+<span lang='Grav'face='Font Awesome 5 Free'>&#xf2d6;</span> Grav
+<span lang='Etsy'face='Font Awesome 5 Free'>&#xf2d7;</span> Etsy
+<span lang='IMDB'face='Font Awesome 5 Free'>&#xf2d8;</span> IMDB
+<span lang='Ravelry'face='Font Awesome 5 Free'>&#xf2d9;</span> Ravelry
+<span lang='Fonticons'face='Font Awesome 5 Free'>&#xf280;</span> Fonticons
+<span lang='reddit Alien'face='Font Awesome 5 Free'>&#xf281;</span> reddit Alien
+<span lang='Battery Full'face='Font Awesome 5 Free'>&#xf240;</span> Battery Full
+<span lang='Edge Browser'face='Font Awesome 5 Free'>&#xf282;</span> Edge Browser
+<span lang='Battery 3/4 Full'face='Font Awesome 5 Free'>&#xf241;</span> Battery 3/4 Full
+<span lang='Pie Chart'face='Font Awesome 5 Free'>&#xf200;</span> Pie Chart
+<span lang='Battery 1/2 Full'face='Font Awesome 5 Free'>&#xf242;</span> Battery 1/2 Full
+<span lang='Line Chart'face='Font Awesome 5 Free'>&#xf201;</span> Line Chart
+<span lang='last.fm'face='Font Awesome 5 Free'>&#xf202;</span> last.fm
+<span lang='Codie Pie'face='Font Awesome 5 Free'>&#xf284;</span> Codie Pie
+<span lang='Battery 1/4 Full'face='Font Awesome 5 Free'>&#xf243;</span> Battery 1/4 Full
+<span lang='MODX'face='Font Awesome 5 Free'>&#xf285;</span> MODX
+<span lang='last.fm Square'face='Font Awesome 5 Free'>&#xf203;</span> last.fm Square
+<span lang='Battery Empty'face='Font Awesome 5 Free'>&#xf244;</span> Battery Empty
+<span lang='Toggle Off'face='Font Awesome 5 Free'>&#xf204;</span> Toggle Off
+<span lang='Mouse Pointer'face='Font Awesome 5 Free'>&#xf245;</span> Mouse Pointer
+<span lang='Fort Awesome'face='Font Awesome 5 Free'>&#xf286;</span> Fort Awesome
+<span lang='USB'face='Font Awesome 5 Free'>&#xf287;</span> USB
+<span lang='Toggle On'face='Font Awesome 5 Free'>&#xf205;</span> Toggle On
+<span lang='I Beam Cursor'face='Font Awesome 5 Free'>&#xf246;</span> I Beam Cursor
+<span lang='Product Hunt'face='Font Awesome 5 Free'>&#xf288;</span> Product Hunt
+<span lang='Object Group'face='Font Awesome 5 Free'>&#xf247;</span> Object Group
+<span lang='Bicycle'face='Font Awesome 5 Free'>&#xf206;</span> Bicycle
+<span lang='Object Ungroup'face='Font Awesome 5 Free'>&#xf248;</span> Object Ungroup
+<span lang='Mixcloud'face='Font Awesome 5 Free'>&#xf289;</span> Mixcloud
+<span lang='Bus'face='Font Awesome 5 Free'>&#xf207;</span> Bus
+<span lang='Sticky Note'face='Font Awesome 5 Free'>&#xf249;</span> Sticky Note
+<span lang='ioxhost'face='Font Awesome 5 Free'>&#xf208;</span> ioxhost
+<span lang='AngelList'face='Font Awesome 5 Free'>&#xf209;</span> AngelList
+<span lang='Sellcast'face='Font Awesome 5 Free'>&#xf2da;</span> Sellcast
+<span lang='Microchip'face='Font Awesome 5 Free'>&#xf2db;</span> Microchip
+<span lang='Snowflake'face='Font Awesome 5 Free'>&#xf2dc;</span> Snowflake
+<span lang='Superpowers'face='Font Awesome 5 Free'>&#xf2dd;</span> Superpowers
+<span lang='WPExplorer'face='Font Awesome 5 Free'>&#xf2de;</span> WPExplorer
+<span lang='Scribd'face='Font Awesome 5 Free'>&#xf28a;</span> Scribd
+<span lang='Pause Circle'face='Font Awesome 5 Free'>&#xf28b;</span> Pause Circle
+<span lang='JCB Credit Card'face='Font Awesome 5 Free'>&#xf24b;</span> JCB Credit Card
+<span lang='Closed Captioning'face='Font Awesome 5 Free'>&#xf20a;</span> Closed Captioning
+<span lang='Stop Circle'face='Font Awesome 5 Free'>&#xf28d;</span> Stop Circle
+<span lang='Shekel Sign'face='Font Awesome 5 Free'>&#xf20b;</span> Shekel Sign
+<span lang='Diners Club Credit Card'face='Font Awesome 5 Free'>&#xf24c;</span> Diners Club Credit Card
+<span lang='Clone'face='Font Awesome 5 Free'>&#xf24d;</span> Clone
+<span lang='Balance Scale'face='Font Awesome 5 Free'>&#xf24e;</span> Balance Scale
+<span lang='BuySellAds'face='Font Awesome 5 Free'>&#xf20d;</span> BuySellAds
+<span lang='Connect Develop'face='Font Awesome 5 Free'>&#xf20e;</span> Connect Develop
+<span lang='HireAHelper'face='Font Awesome 5 Free'>&#xf3b0;</span> HireAHelper
+<span lang='Hotjar'face='Font Awesome 5 Free'>&#xf3b1;</span> Hotjar
+<span lang='Speakap'face='Font Awesome 5 Free'>&#xf3f3;</span> Speakap
+<span lang='HubSpot'face='Font Awesome 5 Free'>&#xf3b2;</span> HubSpot
+<span lang='StayLinked'face='Font Awesome 5 Free'>&#xf3f5;</span> StayLinked
+<span lang='iTunes'face='Font Awesome 5 Free'>&#xf3b4;</span> iTunes
+<span lang='Envelope'face='Font Awesome 5 Free'>&#xf0e0;</span> Envelope
+<span lang='Steam Symbol'face='Font Awesome 5 Free'>&#xf3f6;</span> Steam Symbol
+<span lang='LinkedIn In'face='Font Awesome 5 Free'>&#xf0e1;</span> LinkedIn In
+<span lang='Itunes Note'face='Font Awesome 5 Free'>&#xf3b5;</span> Itunes Note
+<span lang='HDD'face='Font Awesome 5 Free'>&#xf0a0;</span> HDD
+<span lang='Undo'face='Font Awesome 5 Free'>&#xf0e2;</span> Undo
+<span lang='Sticker Mule'face='Font Awesome 5 Free'>&#xf3f7;</span> Sticker Mule
+<span lang='Jenkis'face='Font Awesome 5 Free'>&#xf3b6;</span> Jenkis
+<span lang='bullhorn'face='Font Awesome 5 Free'>&#xf0a1;</span> bullhorn
+<span lang='Studio Vinari'face='Font Awesome 5 Free'>&#xf3f8;</span> Studio Vinari
+<span lang='Joget'face='Font Awesome 5 Free'>&#xf3b7;</span> Joget
+<span lang='Gavel'face='Font Awesome 5 Free'>&#xf0e3;</span> Gavel
+<span lang='Supple'face='Font Awesome 5 Free'>&#xf3f9;</span> Supple
+<span lang='JavaScript (JS)'face='Font Awesome 5 Free'>&#xf3b8;</span> JavaScript (JS)
+<span lang='certificate'face='Font Awesome 5 Free'>&#xf0a3;</span> certificate
+<span lang='JavaScript (JS) Square'face='Font Awesome 5 Free'>&#xf3b9;</span> JavaScript (JS) Square
+<span lang='Hand Pointing Right'face='Font Awesome 5 Free'>&#xf0a4;</span> Hand Pointing Right
+<span lang='Hand Pointing Left'face='Font Awesome 5 Free'>&#xf0a5;</span> Hand Pointing Left
+<span lang='Lightning Bolt'face='Font Awesome 5 Free'>&#xf0e7;</span> Lightning Bolt
+<span lang='Hand Pointing Up'face='Font Awesome 5 Free'>&#xf0a6;</span> Hand Pointing Up
+<span lang='Alternate External Link Square'face='Font Awesome 5 Free'>&#xf360;</span> Alternate External Link Square
+<span lang='Sitemap'face='Font Awesome 5 Free'>&#xf0e8;</span> Sitemap
+<span lang='Hand Pointing Down'face='Font Awesome 5 Free'>&#xf0a7;</span> Hand Pointing Down
