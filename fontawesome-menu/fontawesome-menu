@@ -7,6 +7,12 @@ CONTACT='robstenklippa@gmail.com'
 CREATED="2018-01-23"
 UPDATED="2018-01-23"
 
+if [[ -n $WAYLAND_DISPLAY ]]; then
+  copy=wl-copy
+else
+  copy=xclip -selection clipboard
+fi
+
 main(){
   while getopts :vhf:o:p: option; do
     case "${option}" in
@@ -48,7 +54,7 @@ main(){
       echo -ne "$(echo "$selected" \
         | awk -F';' -v RS='>' '
             NR==2{sub("&#x","",$1);print "\\u" $1;exit}'
-      )" |  xclip -selection clipboard
+      )" |  $copy
     
     ;;
 
@@ -57,7 +63,7 @@ main(){
       echo -n "$(echo "$selected" \
         | awk -F';' -v RS='>' '
             NR==2{sub("&#x","",$1);print $1;exit}')" \
-        |  xclip -selection clipboard
+        |  $copy
 
     ;;
 
@@ -65,7 +71,7 @@ main(){
 
       echo -n "$(echo "$selected" \
         | cut -d\' -f2)" \
-        | xclip -selection clipboard
+        | $copy
 
     ;;
 
