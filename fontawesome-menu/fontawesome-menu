@@ -1,204 +1,355 @@
 #!/bin/bash
 
 NAME="fontawesome-menu"
-VERSION="0.001"
-AUTHOR="budRich"
-CONTACT='robstenklippa@gmail.com'
+VERSION="2.0.0"
+AUTHOR="wstam88"
+CONTACT='github.com/wstam88/rofi-fontawesome'
 CREATED="2018-01-23"
-UPDATED="2018-01-23"
+UPDATED="2025-11-05"
 
+# Configuration
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CONFIG_FILE="$SCRIPT_DIR/generators/config.json"
+ICONS_DIR="$SCRIPT_DIR/icons"
+
+# Detect clipboard tool based on environment
 if [[ -n $WAYLAND_DISPLAY ]]; then
-  copy=wl-copy
+  COPY_CMD="wl-copy"
 else
-  copy=xclip -selection clipboard
+  COPY_CMD="xclip -selection clipboard"
 fi
 
-main(){
-  while getopts :vhf:o:p: option; do
+# Load configuration if available
+load_config() {
+  if command -v jq &> /dev/null && [[ -f "$CONFIG_FILE" ]]; then
+    DEFAULT_VERSION=$(jq -r '.version // "6"' "$CONFIG_FILE")
+    DEFAULT_STYLE=$(jq -r '.default_style // "solid"' "$CONFIG_FILE")
+    USE_COLORS=$(jq -r '.use_colors // false' "$CONFIG_FILE")
+  else
+    DEFAULT_VERSION="6"
+    DEFAULT_STYLE="solid"
+    USE_COLORS=false
+  fi
+}
+
+# Get available icon lists
+get_available_lists() {
+  find "$ICONS_DIR" -name "*.txt" -type f 2>/dev/null | sort
+}
+
+# Auto-detect best available list
+auto_detect_list() {
+  local version="${1:-$DEFAULT_VERSION}"
+  local style="${2:-$DEFAULT_STYLE}"
+
+  # Try version-style combination first
+  local list_file="$ICONS_DIR/fa${version}-${style}.txt"
+  if [[ -f "$list_file" ]]; then
+    echo "$list_file"
+    return 0
+  fi
+
+  # Try just version with "all"
+  list_file="$ICONS_DIR/fa${version}-all.txt"
+  if [[ -f "$list_file" ]]; then
+    echo "$list_file"
+    return 0
+  fi
+
+  # Try default style
+  list_file="$ICONS_DIR/fa${version}-solid.txt"
+  if [[ -f "$list_file" ]]; then
+    echo "$list_file"
+    return 0
+  fi
+
+  # Fallback to any available list
+  local first_list=$(find "$ICONS_DIR" -name "fa${version}-*.txt" -type f | head -1)
+  if [[ -n "$first_list" ]]; then
+    echo "$first_list"
+    return 0
+  fi
+
+  # Ultimate fallback to legacy lists in parent directory
+  if [[ -f "$SCRIPT_DIR/fa5-icon-list.txt" ]]; then
+    echo "$SCRIPT_DIR/fa5-icon-list.txt"
+    return 0
+  fi
+
+  # Fallback to legacy list in same directory
+  if [[ -f "$(dirname "${BASH_SOURCE[0]}")/fa5-icon-list.txt" ]]; then
+    echo "$(dirname "${BASH_SOURCE[0]}")/fa5-icon-list.txt"
+    return 0
+  fi
+
+  return 1
+}
+
+# List available icon lists
+list_available() {
+  echo "Available icon lists:"
+  echo ""
+
+  local lists=$(get_available_lists)
+  if [[ -z "$lists" ]]; then
+    echo "  No icon lists found in $ICONS_DIR"
+    echo ""
+    echo "  Run './update.sh' or './generators/generate_icons.py' to generate icon lists"
+
+    # Check for legacy lists
+    if [[ -f "$SCRIPT_DIR/fa5-icon-list.txt" ]]; then
+      echo ""
+      echo "  Legacy lists found in root directory:"
+      echo "    fa5-icon-list.txt ($(wc -l < "$SCRIPT_DIR/fa5-icon-list.txt") icons)"
+    fi
+    return 1
+  fi
+
+  while IFS= read -r list; do
+    local basename=$(basename "$list")
+    local linecount=$(wc -l < "$list")
+    printf "  %-30s (%d icons)\n" "$basename" "$linecount"
+  done <<< "$lists"
+
+  echo ""
+  echo "Use -f <filename> to select a specific list"
+}
+
+# Interactive list selection
+select_list_interactive() {
+  local lists=$(get_available_lists)
+
+  if [[ -z "$lists" ]]; then
+    echo "No icon lists found. Run './update.sh' to generate them." >&2
+    return 1
+  fi
+
+  # Format for rofi selection
+  local options=""
+  while IFS= read -r list; do
+    local basename=$(basename "$list")
+    local linecount=$(wc -l < "$list")
+    options+="${basename} (${linecount} icons)\n"
+  done <<< "$lists"
+
+  # Show selection menu
+  local selected=$(echo -e "$options" | rofi -dmenu -p "Select icon list:" -i)
+
+  if [[ -z "$selected" ]]; then
+    return 1
+  fi
+
+  # Extract filename from selection
+  local filename=$(echo "$selected" | awk '{print $1}')
+  echo "$ICONS_DIR/$filename"
+}
+
+# Main function
+main() {
+  load_config
+
+  local LISTFILE=""
+  local ROFI_OPTIONS=""
+  local ROFI_PROMPT=""
+  local OUTPUT_MODE="icon"
+  local FA_VERSION="$DEFAULT_VERSION"
+  local FA_STYLE="$DEFAULT_STYLE"
+  local INTERACTIVE=false
+
+  # Parse arguments
+  while getopts :vhf:o:p:V:s:li option; do
     case "${option}" in
       f) LISTFILE="${OPTARG}" ;;
       o) ROFI_OPTIONS="${OPTARG}" ;;
       p) ROFI_PROMPT="${OPTARG}" ;;
+      V) FA_VERSION="${OPTARG}" ;;
+      s) FA_STYLE="${OPTARG}" ;;
+      l) list_available && exit 0 ;;
+      i) INTERACTIVE=true ;;
       v) printf '%s\n' \
            "$NAME - version: $VERSION" \
-           "updated: $UPDATED by $AUTHOR"
+           "updated: $UPDATED by $AUTHOR" \
+           "$CONTACT"
          exit ;;
-      h|*) printinfo && exit ;;
+      h|*) show_help && exit ;;
     esac
   done
 
-  echo "$LISTFILE"
+  shift $((OPTIND - 1))
+  OUTPUT_MODE="${1:-icon}"
 
-  LISTFILE="${LISTFILE:-fa5-icon-list.txt}"
-  ROFI_PROMPT="${ROFI_PROMPT:-""}"
+  # Interactive list selection if requested
+  if [[ "$INTERACTIVE" == true ]]; then
+    LISTFILE=$(select_list_interactive)
+    [[ -z "$LISTFILE" ]] && exit 1
+  fi
 
-  [[ ! -f "$LISTFILE" ]] \
-    && echo "$LISTFILE not found" \
-    && exit 1
+  # Auto-detect list file if not specified
+  if [[ -z "$LISTFILE" ]]; then
+    LISTFILE=$(auto_detect_list "$FA_VERSION" "$FA_STYLE")
+    if [[ -z "$LISTFILE" ]]; then
+      echo "Error: No suitable icon list found." >&2
+      echo "  Searched for: fa${FA_VERSION}-${FA_STYLE}.txt" >&2
+      echo "" >&2
+      echo "Run './update.sh' to generate icon lists, or use -l to list available lists." >&2
+      exit 1
+    fi
+  fi
 
-  (($#>1)) && shift $((--OPTIND))
+  # Check if list file exists
+  if [[ ! -f "$LISTFILE" ]]; then
+    # Try relative to icons directory
+    if [[ -f "$ICONS_DIR/$LISTFILE" ]]; then
+      LISTFILE="$ICONS_DIR/$LISTFILE"
+    else
+      echo "Error: Icon list file not found: $LISTFILE" >&2
+      echo "Use -l to list available icon lists" >&2
+      exit 1
+    fi
+  fi
 
-  ROFI_MAGIC='-dmenu -markup-rows'
+  # Set default rofi options if not specified
+  ROFI_OPTIONS="${ROFI_OPTIONS:--columns 6 -width 100 -lines 20 -location 1 -i}"
+  ROFI_PROMPT="${ROFI_PROMPT:-Select icon:}"
 
-  output=${1:-icon}
+  # Show menu and get selection
+  local selected
+  selected="$(cat "$LISTFILE" | rofi -dmenu -markup-rows $ROFI_OPTIONS -p "$ROFI_PROMPT")"
 
-  selected="$(cat "$LISTFILE" \
-    | rofi ${ROFI_MAGIC} ${ROFI_OPTIONS} -p "${ROFI_PROMPT}")"
+  # Exit if nothing selected
+  [[ -z "$selected" ]] && exit 1
 
-  # Exit if nothing is selected
-  [[ -z $selected ]] && exit 1
-
-  case "$output" in
-    icon )
-    
+  # Process based on output mode
+  case "$OUTPUT_MODE" in
+    icon)
+      # Extract and copy icon character
       echo -ne "$(echo "$selected" \
-        | awk -F';' -v RS='>' '
-            NR==2{sub("&#x","",$1);print "\\u" $1;exit}'
-      )" |  $copy
-    
-    ;;
+        | awk -F';' -v RS='>' 'NR==2{sub("&#x","",$1);print "\\u" $1;exit}'
+      )" | $COPY_CMD
+      ;;
 
-    unicode )
-    
+    unicode)
+      # Extract and copy unicode hex value
       echo -n "$(echo "$selected" \
-        | awk -F';' -v RS='>' '
-            NR==2{sub("&#x","",$1);print $1;exit}')" \
-        |  $copy
+        | awk -F';' -v RS='>' 'NR==2{sub("&#x","",$1);print $1;exit}')" \
+        | $COPY_CMD
+      ;;
 
-    ;;
-
-    name )
-
+    name)
+      # Extract and copy icon name
       echo -n "$(echo "$selected" \
-        | cut -d\' -f2)" \
-        | $copy
+        | awk -F"'" '{print $2}')" \
+        | $COPY_CMD
+      ;;
 
-    ;;
+    class)
+      # Generate and copy full class string
+      local icon_name=$(echo "$selected" | awk -F"'" '{print $2}')
+      echo -n "fa-${icon_name}" | $COPY_CMD
+      ;;
 
+    html)
+      # Generate and copy HTML
+      local icon_name=$(echo "$selected" | awk -F"'" '{print $2}')
+      echo -n "<i class='fa fa-${icon_name}'></i>" | $COPY_CMD
+      ;;
+
+    *)
+      echo "Error: Unknown output mode: $OUTPUT_MODE" >&2
+      echo "Valid modes: icon, unicode, name, class, html" >&2
+      exit 1
+      ;;
   esac
 
+  # Show notification if notify-send is available
+  if command -v notify-send &> /dev/null; then
+    local icon_name=$(echo "$selected" | awk -F"'" '{print $2}')
+    notify-send "FontAwesome" "Copied: $icon_name" -t 2000 2>/dev/null || true
+  fi
 }
 
-printinfo(){
-  case "$1" in
-    m ) printf '%s' "${about}" ;;
-    
-    f ) 
-      printf '%s' "${bouthead}"
-      printf '%s' "${about}"
-      printf '%s' "${boutfoot}"
-    ;;
-
-    ''|* ) 
-      printf '%s' "${about}" | awk '
-         BEGIN{ind=0}
-         $0~/^```/{
-           if(ind!="1"){ind="1"}
-           else{ind="0"}
-           print ""
-         }
-         $0!~/^```/{
-           gsub("[`*]","",$0)
-           if(ind=="1"){$0="   " $0}
-           print $0
-         }
-       '
-    ;;
-  esac
-}
-
-bouthead="
-${NAME^^} 1 ${CREATED} Linux \"User Manuals\"
-=======================================
-
-NAME
-----
-"
-
-boutfoot="
-AUTHOR
-------
-
-${AUTHOR} <${CONTACT}>
-<https://budrich.github.io>
-
-SEE ALSO
---------
-
-rofi(1), xclip(1)
-<https://raw.githubusercontent.com/wstam88/rofi-fontawesome/>, 
-<http://fontawesome.io>
-"
-
-about='
-`fontawesome-menu` - Display all FontAwesome icons in a rofi menu
+show_help() {
+  cat << EOF
+$NAME - Display FontAwesome icons in a rofi menu (v$VERSION)
 
 SYNOPSIS
---------
-
-`fontawesome-menu` [`-v`|`-h`] [-f *LISTFILE*] [-p PROMPT] [OUTPUT]
+    $NAME [OPTIONS] [OUTPUT_MODE]
 
 DESCRIPTION
------------
+    Display a rofi menu with FontAwesome icons and copy the selected
+    icon to clipboard in various formats.
 
-If `fontawesome-menu` is executed without options 
-or arguments, a list of all FontAwesome 5 Free 
-icons is displayed in a rofi menu. The selected icon
-will be put into the clipboard.
+    Version 2.0 features:
+    - Auto-detection of icon lists
+    - Multiple FontAwesome version support (FA5, FA6, etc.)
+    - Multiple style support (solid, regular, brands, etc.)
+    - Interactive list selection
+    - Enhanced output modes
+    - Wayland and X11 clipboard support
 
 OPTIONS
--------
+    -v              Show version and exit
+    -h              Show this help and exit
+    -l              List available icon lists
+    -i              Interactive list selection
+    -f LISTFILE     Specify icon list file (auto-detected by default)
+    -V VERSION      FontAwesome version (default: 6)
+    -s STYLE        Icon style: solid, regular, brands, etc. (default: solid)
+    -p PROMPT       Rofi prompt text (default: "Select icon:")
+    -o OPTIONS      Additional rofi options (quoted string)
 
-`-v`  
-  Show version and exit.
-
-`-h`  
-  Show help and exit.
-
-`-f` *LISTFILE*  
-  File containing objects to display in the menu. 
-  Defaults to *fa5-icon-list.txt*. More lists can
-  be found here:  
-  <https://raw.githubusercontent.com/wstam88/rofi-fontawesome/> 
-
-`-p` PROMPT  
-  PROMPT to display in the menu. Defaults to nothing.
-
-`-o` *ROFI-OPTIONS*  
-  Additional options to pass to `rofi`. Put the all options 
-  in one quoted string. Example:
-  `fontawesome-menu -o '"'"'-i -columns 6 -width 100 -lines 20 -bw 2 -yoffset -2 -location 1'"'"'`
-
-OUTPUT  
-  Can be one of: icon|name|unicode  
-  icon    - Puts the icon in the clipboard (default)  
-  name    - Puts the name in the clipboard   
-  unicode - Puts the unicode in the clipboard  
+OUTPUT_MODE
+    icon            Copy icon character (default)
+    unicode         Copy unicode hex value
+    name            Copy icon name
+    class           Copy CSS class (e.g., "fa-home")
+    html            Copy HTML tag (e.g., "<i class='fa fa-home'></i>")
 
 EXAMPLES
---------  
+    # Basic usage (auto-detect latest version and style)
+    $NAME
 
-``` text
-$ fontawesome-menu \
-    -o "-columns 6 -width 100 -location 1 -lines 20 -i" \
-    -p "Select icon: " \
-    name
-``` 
+    # Select specific version and style
+    $NAME -V 6 -s brands
+
+    # Interactive list selection
+    $NAME -i
+
+    # Copy icon name instead of character
+    $NAME name
+
+    # Copy as HTML
+    $NAME html
+
+    # List available icon lists
+    $NAME -l
+
+    # Use specific icon list file
+    $NAME -f fa6-solid.txt
+
+    # Custom rofi options
+    $NAME -o "-columns 8 -lines 15" -p "Pick an icon:"
+
+FILES
+    $ICONS_DIR/          Icon list files
+    $CONFIG_FILE         Configuration file
 
 DEPENDENCIES
-------------
+    - rofi
+    - fontawesome fonts
+    - xclip (X11) or wl-clipboard (Wayland)
+    - notify-send (optional, for notifications)
+    - jq (optional, for config file support)
 
-rofi  
-fontawesome  
-xclip  
-'
+AUTHOR
+    $AUTHOR
+    $CONTACT
 
-if [ "$1" = "md" ]; then
-  printinfo m
-  exit
-elif [ "$1" = "man" ]; then
-  printinfo f
-  exit
-else
-  main "${@}"
-fi
+SEE ALSO
+    rofi(1), xclip(1), wl-copy(1)
+    https://fontawesome.com
+EOF
+}
+
+# Run main function
+main "$@"

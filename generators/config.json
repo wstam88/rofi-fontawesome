@@ -1,0 +1,20 @@
+{
+  "version": "6",
+  "styles": ["solid", "regular", "brands"],
+  "use_colors": false,
+  "default_style": "solid",
+  "rofi_options": {
+    "columns": 6,
+    "width": 100,
+    "lines": 20,
+    "location": 1
+  },
+  "clipboard": {
+    "wayland": "wl-copy",
+    "x11": "xclip -selection clipboard"
+  },
+  "auto_update": {
+    "enabled": false,
+    "check_interval_days": 7
+  }
+}
