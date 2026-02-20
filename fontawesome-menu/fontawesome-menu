@@ -1,16 +1,18 @@
 #!/bin/bash
 
 NAME="fontawesome-menu"
-VERSION="0.001"
+VERSION="0.002"
 AUTHOR="budRich"
 CONTACT='robstenklippa@gmail.com'
 CREATED="2018-01-23"
-UPDATED="2018-01-23"
+UPDATED="2026-02-20"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 if [[ -n $WAYLAND_DISPLAY ]]; then
-  copy=wl-copy
+  copy=(wl-copy)
 else
-  copy=xclip -selection clipboard
+  copy=(xclip -selection clipboard)
 fi
 
 main(){
@@ -27,9 +29,13 @@ main(){
     esac
   done
 
-  echo "$LISTFILE"
-
-  LISTFILE="${LISTFILE:-fa5-icon-list.txt}"
+  if [[ -z "${LISTFILE:-}" ]]; then
+    if [[ -f "fa5-icon-list.txt" ]]; then
+      LISTFILE="fa5-icon-list.txt"
+    else
+      LISTFILE="${SCRIPT_DIR}/../fa5-icon-list.txt"
+    fi
+  fi
   ROFI_PROMPT="${ROFI_PROMPT:-""}"
 
   [[ ! -f "$LISTFILE" ]] \
@@ -42,8 +48,7 @@ main(){
 
   output=${1:-icon}
 
-  selected="$(cat "$LISTFILE" \
-    | rofi ${ROFI_MAGIC} ${ROFI_OPTIONS} -p "${ROFI_PROMPT}")"
+  selected="$(rofi ${ROFI_MAGIC} ${ROFI_OPTIONS} -p "${ROFI_PROMPT}" < "$LISTFILE")"
 
   # Exit if nothing is selected
   [[ -z $selected ]] && exit 1
@@ -54,7 +59,7 @@ main(){
       echo -ne "$(echo "$selected" \
         | awk -F';' -v RS='>' '
             NR==2{sub("&#x","",$1);print "\\u" $1;exit}'
-      )" |  $copy
+      )" | "${copy[@]}"
     
     ;;
 
@@ -63,7 +68,7 @@ main(){
       echo -n "$(echo "$selected" \
         | awk -F';' -v RS='>' '
             NR==2{sub("&#x","",$1);print $1;exit}')" \
-        |  $copy
+        | "${copy[@]}"
 
     ;;
 
@@ -71,7 +76,7 @@ main(){
 
       echo -n "$(echo "$selected" \
         | cut -d\' -f2)" \
-        | $copy
+        | "${copy[@]}"
 
     ;;
 
@@ -125,9 +130,9 @@ ${AUTHOR} <${CONTACT}>
 SEE ALSO
 --------
 
-rofi(1), xclip(1)
-<https://raw.githubusercontent.com/wstam88/rofi-fontawesome/>, 
-<http://fontawesome.io>
+rofi(1), xclip(1), wl-copy(1)
+<https://github.com/wstam88/rofi-fontawesome>,
+<https://fontawesome.com>
 "
 
 about='
@@ -188,9 +193,9 @@ $ fontawesome-menu \
 DEPENDENCIES
 ------------
 
-rofi  
-fontawesome  
-xclip  
+rofi
+fontawesome
+xclip (X11) or wl-copy (Wayland)
 '
 
 if [ "$1" = "md" ]; then
