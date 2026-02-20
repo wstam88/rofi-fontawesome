@@ -1,6 +1,5 @@
 
-
-`fontawesome-menu` - Display all FontAwesome icons in a rofi menu
+`fontawesome-menu` - Display all Font Awesome icons in a rofi menu
 
 SYNOPSIS
 --------
@@ -10,53 +9,57 @@ SYNOPSIS
 DESCRIPTION
 -----------
 
-If `fontawesome-menu` is executed without options 
-or arguments, a list of all FontAwesome 5 Free 
+If `fontawesome-menu` is executed without options
+or arguments, a list of all Font Awesome 5 Free
 icons is displayed in a rofi menu. The selected icon
 will be put into the clipboard.
+
+Use `-f fa6-icon-list.txt` to browse Font Awesome 6 icons instead.
+
+Supports both X11 (xclip) and Wayland (wl-copy) automatically.
 
 OPTIONS
 -------
 
-`-v`  
+`-v`
   Show version and exit.
 
-`-h`  
+`-h`
   Show help and exit.
 
-`-f` *LISTFILE*  
-  File containing objects to display in the menu. 
+`-f` *LISTFILE*
+  File containing objects to display in the menu.
   Defaults to *fa5-icon-list.txt*. More lists can
-  be found here:  
-  <https://raw.githubusercontent.com/wstam88/rofi-fontawesome/> 
+  be found here:
+  <https://github.com/wstam88/rofi-fontawesome>
 
-`-p` PROMPT  
+`-p` PROMPT
   PROMPT to display in the menu. Defaults to nothing.
 
-`-o` *ROFI-OPTIONS*  
-  Additional options to pass to `rofi`. Put the all options 
+`-o` *ROFI-OPTIONS*
+  Additional options to pass to `rofi`. Put the all options
   in one quoted string. Example:
   `fontawesome-menu -o '-i -columns 6 -width 100 -lines 20 -bw 2 -yoffset -2 -location 1'`
 
-OUTPUT  
-  Can be one of: icon|name|unicode  
-  icon    - Puts the icon in the clipboard (default)  
-  name    - Puts the name in the clipboard   
-  unicode - Puts the unicode in the clipboard  
+OUTPUT
+  Can be one of: icon|name|unicode
+  icon    - Puts the icon in the clipboard (default)
+  name    - Puts the name in the clipboard
+  unicode - Puts the unicode in the clipboard
 
 EXAMPLES
---------  
+--------
 
 ``` text
 $ fontawesome-menu \
     -o "-columns 6 -width 100 -location 1 -lines 20 -i" \
     -p "Select icon: " \
     name
-``` 
+```
 
 DEPENDENCIES
 ------------
 
-rofi  
-fontawesome  
-xclip  
+rofi
+fontawesome
+xclip (X11) or wl-copy (Wayland)
