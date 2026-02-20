@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  shellcheck:
+    name: Lint shell scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install shellcheck
+        run: sudo apt-get install -y shellcheck
+      - name: Run shellcheck on fontawesome-menu
+        run: shellcheck fontawesome-menu/fontawesome-menu
+      - name: Run shellcheck on generate-icon-list.sh
+        run: shellcheck generate-icon-list.sh
+
+  generate:
+    name: Verify icon list generator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Run generator
+        run: bash generate-icon-list.sh
+      - name: Verify fa6-icon-list.txt is non-empty
+        run: test -s fa6-icon-list.txt
+      - name: Verify fa6-icon-list-tags.txt is non-empty
+        run: test -s fa6-icon-list-tags.txt
+      - name: Check icon count is reasonable (>1000)
+        run: |
+          count=$(wc -l < fa6-icon-list.txt)
+          echo "Generated $count icons"
+          [ "$count" -gt 1000 ]
